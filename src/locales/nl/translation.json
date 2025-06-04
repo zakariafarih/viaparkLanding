@@ -1,0 +1,195 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "Over Ons",
+    "services": "Diensten",
+    "contact": "Contact",
+    "cta": "Afspraak maken"
+  },
+  "banner": {
+    "headline": "Moderne tandheelkunde met een persoonlijke aanpak",
+    "lead": "Elke patiënt verdient een gezonde, pijnvrije en mooie glimlach. Mijn doel is om dit te bereiken op een rustige, duidelijke en mensgerichte manier.",
+    "cta": "Afspraak maken",
+    "emergency": "Tandheelkundige 24H Noodsituaties",
+    "phone": "+34 641 328 992",
+    "doctorName": "Dr. Nasre",
+    "doctorTitle": "Tandarts"
+  },
+  "services": {
+    "homeSection": {
+      "subTitle": "Diensten",
+      "title": "Hoogwaardige tandheelkundige zorg voor het hele gezin",
+      "description": "Bij Clínica Dental Viapark combineren we moderne technologie met een persoonlijke aanpak om alles aan te bieden, van algemene controles tot implantaten, esthetiek, orthodontie en spoedzorg - op maat gemaakt voor zowel kinderen als volwassenen."
+    },
+    "page": {
+      "subTitle": "Onze Diensten",
+      "title": "Hoogwaardige tandheelkundige zorg voor het hele gezin",
+      "description": "Bij Clínica Dental Viapark combineren we moderne technologie met een persoonlijke aanpak om alles aan te bieden, van algemene controles tot implantaten, esthetiek, orthodontie en spoedzorg - op maat gemaakt voor zowel kinderen als volwassenen."
+    },
+    "viewAllButton": "Bekijk alle diensten",
+    "learnMore": "Meer informatie",
+    "items": {
+      "general": {
+        "title": "Algemene Tandheelkunde",
+        "description": "Preventie en onderhoud: regelmatige controles, professionele reinigingen, vullingen en algemene zorg om uw mondgezondheid in topconditie te houden."
+      },
+      "pediatric": {
+        "title": "Kinder- en Jeugdtandheelkunde",
+        "description": "Vriendelijke zorg voor onze jongste patiënten: preventieve zorg (fluoride, vullingen), uitleg op hun niveau en poetslessen om gaatjes te voorkomen."
+      },
+      "implant": {
+        "title": "Implantologie",
+        "description": "Permanente oplossingen voor ontbrekende tanden: Dr. Nasre plaatst duurzame, natuurlijk ogende implantaten als langetermijnvervanging voor tanden."
+      },
+      "aesthetic": {
+        "title": "Esthetische Tandheelkunde",
+        "description": "Cosmetische behandelingen om uw glimlach te laten stralen: professioneel bleken, facings of composietopbouw voor een verbeterd esthetisch resultaat."
+      },
+      "reconstructive": {
+        "title": "Reconstructieve Tandheelkunde",
+        "description": "Herstel van complexe tandschade: functionele en esthetische rehabilitatie voor slijtage, trauma of meerdere ontbrekende tanden."
+      },
+      "orthodontics": {
+        "title": "Orthodontie en Aligners",
+        "description": "Rechte tanden voor kinderen en volwassenen: traditionele beugels of bijna onzichtbare Invisalign aligners voor comfortabele, discrete uitlijning."
+      },
+      "surgical": {
+        "title": "Mondchirurgie",
+        "description": "Kleine chirurgische ingrepen: verwijdering van verstandskiezen, kleine kaakinterventies en behandeling van tandinfecties."
+      },
+      "emergency": {
+        "title": "Spoedeisende Tandheelkunde",
+        "description": "Dezelfde dag nog dringende zorg voor pijn, zwelling of ongelukken: bel ons onmiddellijk--ons doel is om u nog dezelfde dag te helpen."
+      }
+    }
+  },
+  "emergency": {
+    "subTitle": "Spoedeisende Tandheelkunde",
+    "title": "Dezelfde dag nog dringende zorg voor pijn, zwelling of ongelukken",
+    "description": "Bij Clínica Dental Viapark begrijpen we dat tandheelkundige noodsituaties op elk moment kunnen voorkomen. Bel ons op +34 641 328 992 voor onmiddellijke hulp--we streven ernaar om u nog dezelfde dag te zien.",
+    "callButton": "Nu Bellen"
+  },
+  "features": {
+    "subTitle": "Onze Sterke Punten",
+    "title": "Moderne tandheelkunde met een persoonlijke aanpak",
+    "description": "Bij Clínica Dental Viapark combineren we geavanceerde technieken, een rustige omgeving en gepersonaliseerde zorg, zodat elke patiënt vertrekt met een gezonde, pijnvrije glimlach.",
+    "items": {
+      "personalized": {
+        "title": "Persoonlijke Zorg",
+        "description": "Dr. Nasre behandelt elke patiënt met een rustige, duidelijke aanpak--perfect voor mensen met tandartsangst."
+      },
+      "multilingual": {
+        "title": "Meertalig Team",
+        "description": "Ons personeel spreekt Nederlands, Duits en Engels, wat zorgt voor duidelijke communicatie en comfort."
+      },
+      "comprehensive": {
+        "title": "Uitgebreide Familietandheelkunde",
+        "description": "Van kinderen tot senioren, we behandelen alles--algemene controles, kindertandheelkunde, implantaten en meer."
+      },
+      "modern": {
+        "title": "Moderne Technieken & Comfort",
+        "description": "We gebruiken de nieuwste apparatuur en een aangename omgeving om prioriteit te geven aan uw zorgkwaliteit."
+      }
+    }
+  },
+  "common": {
+  "language": "Taal",
+  "bookAppointment": "Afspraak Maken",
+  "patternAlt": "Decoratief patroon"
+  },
+  "appointment": {
+    "subTitle": "AFSPRAAK MAKEN",
+    "title": "Plan uw bezoek bij Clínica Dental Viapark",
+    "description": "We zijn geopend van maandag tot vrijdag: 09:30 - 15:00. Vul het onderstaande formulier in en we bevestigen uw afspraak binnenkort.",
+    "mapTitle": "Locatie van de Kliniek",
+    "address": "C. Lagunas de Ruidera, 127, Loc. 6 Pb<br>Centro Comercial Viapark V<br>03189 Orihuela Costa (Alicante)",
+    "form": {
+      "name": "Naam",
+      "namePlaceholder": "Voer uw naam in...",
+      "email": "E-mailadres",
+      "emailPlaceholder": "Voer uw e-mailadres in...",
+      "service": "Dienst",
+      "selectService": "Selecteer een dienst",
+      "department": "Afdeling",
+      "message": "Bericht",
+      "messagePlaceholder": "Voer uw bericht in...",
+      "submitButton": "Afspraak maken",
+      "submitSuccess": "Bedankt! Uw afspraakverzoek is verzonden. We nemen binnenkort contact met u op."
+    },
+    "emergency": {
+      "label": "Tandheelkundige 24H Noodsituatie",
+      "iconAlt": "Belikoon"
+    }
+  },
+  "footer": {
+    "logoAlt": "Clínica Dental Viapark logo",
+    "description": "Clínica Dental Viapark biedt moderne tandheelkunde met een persoonlijke aanpak. Van algemene controles tot implantaten, esthetische behandelingen en spoedzorg: bij ons staat kwaliteit en comfort voorop.",
+    "followUs": "Volg ons op",
+    "quickLinks": "Snelle Links",
+    "contactInfo": "Contact & Informatie",
+    "phoneNumber": "Telefoonnummer",
+    "phoneNumberIcon": "Telefoon icoon",
+    "openingHours": "Openingstijden",
+    "openingHoursIcon": "Klok icoon",
+    "openingHoursValue": "Ma — Vr: 09:30 — 15:00",
+    "clinicAddress": "Kliniek Adres",
+    "clinicAddressIcon": "Locatie icoon",
+    "clinicAddressValue": "C. Lagunas de Ruidera, 127, Loc. 6 Pb\n03189 Orihuela Costa (Alicante)",
+    "copyright": "Clínica Dental Viapark. Alle Rechten Voorbehouden",
+    "terms": "Gebruiksvoorwaarden",
+    "privacy": "Privacybeleid"
+  },
+  "about": {
+    "banner": {
+      "title": "Over Clínica Dental Viapark",
+      "description": "Bij Clínica Dental Viapark combineren we moderne tandheelkunde met een persoonlijke aanpak. Onder leiding van Dr. Nasre--gespecialiseerd in implantologie, angstige patiëntenzorg en reconstructieve tandheelkunde--streven we ernaar elke patiënt een gezonde, pijnvrije en mooie glimlach te geven.",
+      "imageAlt1": "Dr. Nasre aan het werk",
+      "imageAlt2": "Interieur van de kliniek"
+    },
+    "priority": {
+      "subTitle": "ONZE PRIORITEIT",
+      "title": "Jouw glimlach, onze missie",
+      "description": "Elke patiënt verdient een gezonde, pijnvrije en mooie glimlach. Met jarenlange ervaring en een rustige, duidelijke aanpak zorgen Dr. Nasre en het team ervoor dat zelfs de meest angstige patiënten zich op hun gemak voelen. We spreken Nederlands, Duits en Engels, en zetten je comfort altijd voorop.",
+      "imageAlt": "Illustratie van kliniek prioriteit"
+    },
+    "patientGallery": {
+      "subTitle": "ONS WERK",
+      "title": "Galerij van tandheelkundige cases",
+      "description": "Een selectie van ons tandheelkundig werk dat de kwaliteit en precisie toont die we in de behandeling van elke patiënt brengen.",
+      "image1Alt": "Voorbeeld van tandheelkundig werk 1",
+      "image2Alt": "Voorbeeld van tandheelkundig werk 2",
+      "image3Alt": "Voorbeeld van tandheelkundig werk 3",
+      "image4Alt": "Voorbeeld van tandheelkundig werk 4",
+      "moreWorkTitle": "Geïnteresseerd in meer van ons werk zien?",
+      "moreWorkText": "Dit zijn slechts enkele voorbeelden van de behandelingen die we bieden. Tijdens je consult kunnen we je specifieke behoeften bespreken en je aanvullende gevallen tonen die verband houden met jouw tandheelkundige situatie."
+    }
+  },
+  "contact": {
+    "subTitle": "NEEM CONTACT OP",
+    "title": "Contact Clínica Dental Viapark",
+    "description": "Heeft u vragen of wilt u een afspraak maken? Neem rechtstreeks contact met ons op via een van de volgende methoden. We helpen u graag verder.",
+    "mapTitle": "Onze Locatie",
+    "methods": {
+      "email": {
+        "label": "E-mail",
+        "value": "info@viaparkdental.nl"
+      },
+      "phone": {
+        "label": "Telefoon",
+        "value": "+34 641 328 992"
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "value": "+34 641 328 992"
+      },
+      "address": {
+        "label": "Bezoek Ons",
+        "value": "C. Lagunas de Ruidera, 127, Loc. 6 Pb\nCentro Comercial Viapark V\n03189 Orihuela Costa (Alicante)"
+      },
+      "hours": {
+        "label": "Openingstijden",
+        "value": "Maandag — Vrijdag: 09:30 — 15:00\nGesloten in het weekend"
+      }
+    }
+  }
+}

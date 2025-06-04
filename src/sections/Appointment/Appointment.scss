@@ -1,0 +1,149 @@
+@import '../../sass/colors.scss';
+
+.appointment-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f9fbfc;
+  position: relative;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23b8d3ff' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    opacity: 0.5;
+    z-index: 0;
+  }
+
+  .container {
+    position: relative;
+    z-index: 1;
+  }
+
+  .section-title {
+    margin-bottom: 30px;
+  }
+
+  .google-map {
+    height: 600px;
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .location-name {
+      position: absolute;
+      bottom: 20px;
+      left: 0;
+      right: 0;
+      background: $color-white;
+      padding: 15px;
+      width: 80%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      border-radius: 30px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+
+      svg {
+        background: $color-blue;
+        color: $color-white;
+        width: 60px;
+        height: 50px;
+        padding: 10px;
+        line-height: 50px;
+        border-radius: 15px;
+        border: 5px solid rgba($color-blue, 0.1);
+        flex-shrink: 0;
+      }
+
+      p {
+        margin-left: 20px;
+        margin-bottom: 0;
+        font-weight: 600;
+        color: $color-black;
+        font-size: 14px;
+        line-height: 1.6;
+      }
+    }
+  }
+
+  .appointment-contact-area {
+    padding-left: 50px;
+  }
+}
+
+// Mobile Responsive
+@media (max-width: 991px) {
+  .appointment-section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    
+    .google-map {
+      height: 500px;
+      
+      .location-name {
+        width: 90%;
+        padding: 12px;
+        
+        svg {
+          width: 50px;
+          height: 40px;
+        }
+        
+        p {
+          font-size: 13px;
+        }
+      }
+    }
+    
+    .appointment-contact-area {
+      padding-left: 0;
+      margin-top: 30px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .appointment-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    .google-map {
+      height: 400px;
+      
+      .location-name {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+        
+        svg {
+          margin-bottom: 10px;
+        }
+        
+        p {
+          margin-left: 0;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .appointment-section {
+    .google-map {
+      height: 350px;
+    }
+  }
+}

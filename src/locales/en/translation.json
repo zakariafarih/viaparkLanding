@@ -1,0 +1,195 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact Us",
+    "cta": "Book appointment"
+  },
+  "banner": {
+    "headline": "Modern dentistry with a personal approach",
+    "lead": "Every patient deserves a healthy, pain-free, and beautiful smile. My goal is to achieve that in a calm, clear, and human-centered way.",
+    "cta": "Book an appointment",
+    "emergency": "Dental 24H Emergency",
+    "phone": "+34 641 328 992",
+    "doctorName": "Dr. Nasre",
+    "doctorTitle": "Dentist"
+  },
+  "services": {
+    "homeSection": {
+      "subTitle": "Services",
+      "title": "High-quality dental care for the whole family",
+      "description": "At Clínica Dental Viapark, we combine modern technology with a personal approach to offer everything from general checkups to implants, aesthetics, orthodontics, and emergency care -- tailored to both children and adults."
+    },
+    "page": {
+      "subTitle": "Our Services",
+      "title": "High-quality dental care for the whole family",
+      "description": "At Clínica Dental Viapark, we combine modern technology with a personal approach to offer everything from general checkups to implants, aesthetics, orthodontics, and emergency care--tailored to both children and adults."
+    },
+    "viewAllButton": "View all service list",
+    "learnMore": "Learn more",
+    "items": {
+      "general": {
+        "title": "General Dentistry",
+        "description": "Prevention and maintenance: regular checkups, professional cleanings, fillings, and overall care to keep your oral health in top shape."
+      },
+      "pediatric": {
+        "title": "Pediatric & Youth Dentistry",
+        "description": "Friendly care for our youngest patients: preventive care (fluoride, fillings), explanations at their level, and brushing lessons to avoid cavities."
+      },
+      "implant": {
+        "title": "Implantology",
+        "description": "Permanent solutions for missing teeth: Dr. Nasre places durable, natural-looking implants as long-term tooth replacements."
+      },
+      "aesthetic": {
+        "title": "Aesthetic Dentistry",
+        "description": "Cosmetic treatments to make your smile shine: professional whitening, veneers, or composite build-up for an improved aesthetic result."
+      },
+      "reconstructive": {
+        "title": "Reconstructive Dentistry",
+        "description": "Restoration of complex dental damage: functional and aesthetic rehabilitation for wear, trauma, or multiple missing teeth."
+      },
+      "orthodontics": {
+        "title": "Orthodontics & Aligners",
+        "description": "Straight teeth for kids and adults: traditional braces or nearly invisible Invisalign aligners for comfortable, discreet alignment."
+      },
+      "surgical": {
+        "title": "Oral Surgery",
+        "description": "Minor surgical procedures: wisdom tooth removal, small jaw interventions, and treatment of dental infections."
+      },
+      "emergency": {
+        "title": "Emergency Dentistry",
+        "description": "Same-day urgent care for pain, swelling or accidents: call us immediately--our goal is to help you on the very same day."
+      }
+    }
+  },
+  "emergency": {
+    "subTitle": "Emergency Dentistry",
+    "title": "Same-day urgent care for pain, swelling or accidents",
+    "description": "At Clínica Dental Viapark, we understand that dental emergencies can happen anytime. Call us at +34 641 328 992 for immediate assistance--we strive to see you on the very same day.",
+    "callButton": "Call Now"
+  },
+  "features": {
+    "subTitle": "Our Strengths",
+    "title": "Modern dentistry with a personal approach",
+    "description": "At Clínica Dental Viapark, we combine advanced techniques, a calm environment, and personalized care--so every patient leaves with a healthy, pain-free smile.",
+    "items": {
+      "personalized": {
+        "title": "Personalized Care",
+        "description": "Dr. Nasre treats each patient with a calm, clear approach--perfect for those with dental anxiety."
+      },
+      "multilingual": {
+        "title": "Multilingual Team",
+        "description": "Our staff speaks Dutch, German, and English, ensuring clear communication and comfort."
+      },
+      "comprehensive": {
+        "title": "Comprehensive Family Dentistry",
+        "description": "From children to seniors, we cover everything--general checkups, pediatric, implants, and more."
+      },
+      "modern": {
+        "title": "Modern Techniques & Comfort",
+        "description": "We use the latest equipment and a gentle environment to prioritize your quality of care."
+      }
+    }
+  },
+  "common": {
+    "language": "Language",
+    "bookAppointment": "Book an Appointment",
+    "patternAlt": "Decorative pattern"
+  },
+  "appointment": {
+    "subTitle": "BOOK APPOINTMENT",
+    "title": "Schedule Your Visit at Clínica Dental Viapark",
+    "description": "We're open Monday--Friday: 09:30 -- 15:00. Fill out the form below and we'll confirm your appointment shortly.",
+    "mapTitle": "Clinic Location",
+    "address": "C. Lagunas de Ruidera, 127, Loc. 6 Pb<br>Centro Comercial Viapark V<br>03189 Orihuela Costa (Alicante)",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Enter your name...",
+      "email": "E-mail Address",
+      "emailPlaceholder": "Enter email address...",
+      "service": "Service",
+      "selectService": "Select a service",
+      "department": "Department",
+      "message": "Message",
+      "messagePlaceholder": "Enter your message...",
+      "submitButton": "Book an appointment",
+      "submitSuccess": "Thank you! Your appointment request has been submitted. We'll contact you shortly."
+    },
+    "emergency": {
+      "label": "Dental 24H Emergency",
+      "iconAlt": "Call icon"
+    }
+  },
+  "footer": {
+    "logoAlt": "Clínica Dental Viapark logo",
+    "description": "Clínica Dental Viapark offers modern dentistry with a personal approach. From general checkups to implants, aesthetic treatments, and emergency care: quality and comfort are our top priorities.",
+    "followUs": "Follow us on",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact & Information",
+    "phoneNumber": "Phone Number",
+    "phoneNumberIcon": "Phone icon",
+    "openingHours": "Opening Hours",
+    "openingHoursIcon": "Clock icon",
+    "openingHoursValue": "Mon — Fri: 09:30 — 15:00",
+    "clinicAddress": "Clinic Address",
+    "clinicAddressIcon": "Location icon",
+    "clinicAddressValue": "C. Lagunas de Ruidera, 127, Loc. 6 Pb\n03189 Orihuela Costa (Alicante)",
+    "copyright": "Clínica Dental Viapark. All Rights Reserved",
+    "terms": "Terms of Use",
+    "privacy": "Privacy Policy"
+  },
+  "about": {
+    "banner": {
+      "title": "About Clínica Dental Viapark",
+      "description": "At Clínica Dental Viapark, we combine modern dentistry with a personal approach. Led by Dr. Nasre--specialized in implantology, anxious patient care, and reconstructive dentistry--we strive to give every patient a healthy, pain-free, and beautiful smile.",
+      "imageAlt1": "Dr. Nasre at work",
+      "imageAlt2": "Clinic interior"
+    },
+    "priority": {
+      "subTitle": "OUR PRIORITY",
+      "title": "Your smile, our mission",
+      "description": "Every patient deserves a healthy, pain-free, and beautiful smile. With years of experience and a calm, clear approach, Dr. Nasre and the team ensure even the most anxious patients feel at ease. We speak Dutch, German, and English, and always put your comfort first.",
+      "imageAlt": "Clinic priority illustration"
+    },
+    "patientGallery": {
+      "subTitle": "OUR WORK",
+      "title": "Gallery of dental cases",
+      "description": "A selection of our dental work showcasing the quality and precision we bring to every patient's treatment.",
+      "image1Alt": "Dental work case example 1",
+      "image2Alt": "Dental work case example 2",
+      "image3Alt": "Dental work case example 3",
+      "image4Alt": "Dental work case example 4",
+      "moreWorkTitle": "Interested in seeing more of our work?",
+      "moreWorkText": "These are just a few examples of the treatments we provide. During your consultation, we can discuss your specific needs and show you additional cases that relate to your dental situation."
+    }
+  },
+  "contact": {
+    "subTitle": "GET IN TOUCH",
+    "title": "Contact Clínica Dental Viapark",
+    "description": "Have questions or need an appointment? Reach out to us directly through any of the following methods. We'll be happy to assist you.",
+    "mapTitle": "Our Location",
+    "methods": {
+      "email": {
+        "label": "Email",
+        "value": "info@viaparkdental.nl"
+      },
+      "phone": {
+        "label": "Phone",
+        "value": "+34 641 328 992"
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "value": "+34 641 328 992"
+      },
+      "address": {
+        "label": "Visit Us",
+        "value": "C. Lagunas de Ruidera, 127, Loc. 6 Pb\nCentro Comercial Viapark V\n03189 Orihuela Costa (Alicante)"
+      },
+      "hours": {
+        "label": "Opening Hours",
+        "value": "Monday — Friday: 09:30 — 15:00\nClosed on weekends"
+      }
+    }
+  }
+}

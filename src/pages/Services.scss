@@ -1,0 +1,42 @@
+.all-services-section {
+  background: #f9fbfc; 
+  padding-top: 100px;
+  padding-bottom: 70px;
+
+  .container {
+    max-width: 1200px;
+    padding: 0 15px;
+  }
+
+  .row {
+    margin-right: -10px;
+    margin-left: -10px;
+    
+    [class*="col-"] {
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+  }
+  
+  // Add some animation delay to stagger the service boxes
+  @for $i from 1 through 8 {
+    .col-lg-3:nth-child(#{$i}) .service-box {
+      animation-delay: #{$i * 0.1}s;
+    }
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 991px) {
+  .all-services-section {
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .all-services-section {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+}

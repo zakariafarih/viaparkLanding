@@ -1,0 +1,195 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "services": "Services",
+    "contact": "Contact",
+    "cta": "Prendre rendez-vous"
+  },
+  "banner": {
+    "headline": "Dentisterie moderne avec une approche personnelle",
+    "lead": "Chaque patient mérite un sourire sain, sans douleur et beau. Mon objectif est d'y parvenir d'une manière calme, claire et centrée sur l'humain.",
+    "cta": "Prendre rendez-vous",
+    "emergency": "Urgence Dentaire 24H",
+    "phone": "+34 641 328 992",
+    "doctorName": "Dr. Nasre",
+    "doctorTitle": "Dentiste"
+  },
+  "services": {
+    "homeSection": {
+      "subTitle": "Services",
+      "title": "Soins dentaires de haute qualité pour toute la famille",
+      "description": "À la Clínica Dental Viapark, nous combinons technologie moderne et approche personnelle pour offrir des services allant des contrôles généraux aux implants, esthétique, orthodontie et soins d'urgence - adaptés aux enfants comme aux adultes."
+    },
+    "page": {
+      "subTitle": "Nos Services",
+      "title": "Soins dentaires de haute qualité pour toute la famille",
+      "description": "À la Clínica Dental Viapark, nous combinons technologie moderne et approche personnelle pour offrir des services allant des contrôles généraux aux implants, esthétique, orthodontie et soins d'urgence - adaptés aux enfants comme aux adultes."
+    },
+    "viewAllButton": "Voir tous les services",
+    "learnMore": "En savoir plus",
+    "items": {
+      "general": {
+        "title": "Dentisterie Générale",
+        "description": "Prévention et maintenance : contrôles réguliers, nettoyages professionnels, obturations et soins généraux pour maintenir votre santé bucco-dentaire en parfait état."
+      },
+      "pediatric": {
+        "title": "Dentisterie Pédiatrique et Juvénile",
+        "description": "Soins adaptés à nos plus jeunes patients : soins préventifs (fluor, obturations), explications à leur niveau et leçons de brossage pour éviter les caries."
+      },
+      "implant": {
+        "title": "Implantologie",
+        "description": "Solutions permanentes pour les dents manquantes : Dr. Nasre pose des implants durables et d'apparence naturelle comme remplacement dentaire à long terme."
+      },
+      "aesthetic": {
+        "title": "Dentisterie Esthétique",
+        "description": "Traitements cosmétiques pour faire briller votre sourire : blanchiment professionnel, facettes ou reconstruction en composite pour un résultat esthétique amélioré."
+      },
+      "reconstructive": {
+        "title": "Dentisterie Reconstructive",
+        "description": "Restauration de dommages dentaires complexes : réhabilitation fonctionnelle et esthétique pour l'usure, les traumatismes ou les dents multiples manquantes."
+      },
+      "orthodontics": {
+        "title": "Orthodontie et Aligneurs",
+        "description": "Dents droites pour enfants et adultes : appareils traditionnels ou aligneurs Invisalign presque invisibles pour un alignement confortable et discret."
+      },
+      "surgical": {
+        "title": "Chirurgie Buccale",
+        "description": "Procédures chirurgicales mineures : extraction des dents de sagesse, petites interventions maxillaires et traitement des infections dentaires."
+      },
+      "emergency": {
+        "title": "Dentisterie d'Urgence",
+        "description": "Soins urgents le jour même pour douleur, gonflement ou accidents : appelez-nous immédiatement--notre objectif est de vous aider le jour même."
+      }
+    }
+  },
+    "emergency": {
+    "subTitle": "Dentisterie d'Urgence",
+    "title": "Soins urgents le jour même pour douleur, gonflement ou accidents",
+    "description": "À la Clínica Dental Viapark, nous comprenons que les urgences dentaires peuvent survenir à tout moment. Appelez-nous au +34 641 328 992 pour une assistance immédiate--nous nous efforçons de vous voir le jour même.",
+    "callButton": "Appeler Maintenant"
+  },
+  "features": {
+    "subTitle": "Nos Forces",
+    "title": "Dentisterie moderne avec une approche personnelle",
+    "description": "À la Clínica Dental Viapark, nous combinons techniques avancées, environnement calme et soins personnalisés, pour que chaque patient reparte avec un sourire sain et sans douleur.",
+    "items": {
+      "personalized": {
+        "title": "Soins Personnalisés",
+        "description": "Dr. Nasre traite chaque patient avec une approche calme et claire, parfaite pour ceux qui souffrent d'anxiété dentaire."
+      },
+      "multilingual": {
+        "title": "Équipe Multilingue",
+        "description": "Notre personnel parle néerlandais, allemand et anglais, assurant une communication claire et un confort optimal."
+      },
+      "comprehensive": {
+        "title": "Dentisterie Familiale Complète",
+        "description": "Des enfants aux seniors, nous couvrons tout : contrôles généraux, pédiatrie, implants et plus encore."
+      },
+      "modern": {
+        "title": "Techniques Modernes et Confort",
+        "description": "Nous utilisons les équipements les plus récents et un environnement agréable pour privilégier la qualité de vos soins."
+      }
+    }
+  },
+  "common": {
+    "language": "Langue",
+    "bookAppointment": "Prendre Rendez-vous",
+    "patternAlt": "Motif décoratif"
+  },
+  "appointment": {
+    "subTitle": "PRENDRE RENDEZ-VOUS",
+    "title": "Planifiez votre visite à la Clínica Dental Viapark",
+    "description": "Nous sommes ouverts du lundi au vendredi : 09h30 - 15h00. Remplissez le formulaire ci-dessous et nous confirmerons votre rendez-vous sous peu.",
+    "mapTitle": "Emplacement de la Clinique",
+    "address": "C. Lagunas de Ruidera, 127, Loc. 6 Pb<br>Centro Comercial Viapark V<br>03189 Orihuela Costa (Alicante)",
+    "form": {
+      "name": "Nom",
+      "namePlaceholder": "Entrez votre nom...",
+      "email": "Adresse E-mail",
+      "emailPlaceholder": "Entrez votre adresse e-mail...",
+      "service": "Service",
+      "selectService": "Sélectionnez un service",
+      "department": "Département",
+      "message": "Message",
+      "messagePlaceholder": "Entrez votre message...",
+      "submitButton": "Prendre rendez-vous",
+      "submitSuccess": "Merci ! Votre demande de rendez-vous a été soumise. Nous vous contacterons bientôt."
+    },
+    "emergency": {
+      "label": "Urgence Dentaire 24H",
+      "iconAlt": "Icône d'appel"
+    }
+  },
+  "footer": {
+    "logoAlt": "Logo de Clínica Dental Viapark",
+    "description": "Clínica Dental Viapark propose une dentisterie moderne avec une approche personnelle. Des contrôles généraux aux implants, traitements esthétiques et soins d'urgence : la qualité et le confort sont nos priorités absolues.",
+    "followUs": "Suivez-nous sur",
+    "quickLinks": "Liens Rapides",
+    "contactInfo": "Contact et Informations",
+    "phoneNumber": "Numéro de Téléphone",
+    "phoneNumberIcon": "Icône de téléphone",
+    "openingHours": "Heures d'Ouverture",
+    "openingHoursIcon": "Icône d'horloge",
+    "openingHoursValue": "Lun — Ven: 09:30 — 15:00",
+    "clinicAddress": "Adresse de la Clinique",
+    "clinicAddressIcon": "Icône de localisation",
+    "clinicAddressValue": "C. Lagunas de Ruidera, 127, Loc. 6 Pb\n03189 Orihuela Costa (Alicante)",
+    "copyright": "Clínica Dental Viapark. Tous Droits Réservés",
+    "terms": "Conditions d'Utilisation",
+    "privacy": "Politique de Confidentialité"
+  },
+  "about": {
+    "banner": {
+      "title": "À propos de Clínica Dental Viapark",
+      "description": "À la Clínica Dental Viapark, nous combinons la dentisterie moderne avec une approche personnelle. Dirigés par le Dr Nasre--spécialisé en implantologie, soins aux patients anxieux et dentisterie reconstructive--nous nous efforçons de donner à chaque patient un sourire sain, sans douleur et beau.",
+      "imageAlt1": "Dr Nasre au travail",
+      "imageAlt2": "Intérieur de la clinique"
+    },
+    "priority": {
+      "subTitle": "NOTRE PRIORITÉ",
+      "title": "Votre sourire, notre mission",
+      "description": "Chaque patient mérite un sourire sain, sans douleur et beau. Avec des années d'expérience et une approche calme et claire, le Dr Nasre et l'équipe s'assurent que même les patients les plus anxieux se sentent à l'aise. Nous parlons néerlandais, allemand et anglais, et mettons toujours votre confort en premier.",
+      "imageAlt": "Illustration de priorité de la clinique"
+    },
+    "patientGallery": {
+      "subTitle": "NOTRE TRAVAIL",
+      "title": "Galerie de cas dentaires",
+      "description": "Une sélection de notre travail dentaire démontrant la qualité et la précision que nous apportons au traitement de chaque patient.",
+      "image1Alt": "Exemple de cas de travail dentaire 1",
+      "image2Alt": "Exemple de cas de travail dentaire 2",
+      "image3Alt": "Exemple de cas de travail dentaire 3",
+      "image4Alt": "Exemple de cas de travail dentaire 4",
+      "moreWorkTitle": "Intéressé à voir plus de notre travail?",
+      "moreWorkText": "Ce ne sont que quelques exemples des traitements que nous proposons. Lors de votre consultation, nous pouvons discuter de vos besoins spécifiques et vous montrer des cas supplémentaires liés à votre situation dentaire."
+    }
+  },
+  "contact": {
+    "subTitle": "CONTACTEZ-NOUS",
+    "title": "Contact Clínica Dental Viapark",
+    "description": "Vous avez des questions ou besoin d'un rendez-vous? Contactez-nous directement par l'une des méthodes suivantes. Nous serons heureux de vous aider.",
+    "mapTitle": "Notre Emplacement",
+    "methods": {
+      "email": {
+        "label": "Email",
+        "value": "info@viaparkdental.nl"
+      },
+      "phone": {
+        "label": "Téléphone",
+        "value": "+34 641 328 992"
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "value": "+34 641 328 992"
+      },
+      "address": {
+        "label": "Visitez-Nous",
+        "value": "C. Lagunas de Ruidera, 127, Loc. 6 Pb\nCentro Comercial Viapark V\n03189 Orihuela Costa (Alicante)"
+      },
+      "hours": {
+        "label": "Heures d'Ouverture",
+        "value": "Lundi — Vendredi: 09:30 — 15:00\nFermé les weekends"
+      }
+    }
+  }
+}

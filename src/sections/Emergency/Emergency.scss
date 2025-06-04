@@ -1,0 +1,238 @@
+@import '../../sass/colors.scss';
+
+.emergency-section {
+    padding: 100px 0;
+    background-color: #f9fbfc;
+    position: relative;
+    overflow: hidden;
+    
+    &::before {
+        content: '';
+        position: absolute;
+        top: -150px;
+        right: -150px;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background-color: rgba($color-blue, 0.05);
+        z-index: 1;
+    }
+    
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: -100px;
+        left: -100px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: rgba($color-blue, 0.05);
+        z-index: 1;
+    }
+    
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+    
+    .emergency-image-col {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .emergency-image-wrapper {
+        position: relative;
+        max-width: 480px;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        
+        &::before {
+            content: '';
+            position: absolute;
+            top: -30px;
+            left: -30px;
+            width: 100px;
+            height: 100px;
+            background-color: rgba($color-blue, 0.1);
+            border-radius: 12px;
+            z-index: -1;
+        }
+        
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: -25px;
+            right: -25px;
+            width: 80px;
+            height: 80px;
+            background-color: rgba($color-blue, 0.1);
+            border-radius: 12px;
+            z-index: -1;
+        }
+    }
+    
+    .emergency-image {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        transform: translateZ(0); // Fix for Safari rendering issues
+    }
+    
+    .emergency-content {
+        padding-left: 30px;
+        
+        .section-title {
+            margin-bottom: 40px;
+            
+            h2 {
+                font-size: 36px;
+                line-height: 1.3;
+                margin-bottom: 20px;
+                color: $color-black;
+            }
+            
+            p {
+                font-size: 16px;
+                line-height: 1.8;
+                color: rgba($color-black, 0.7);
+            }
+        }
+    }
+    
+    .emergency-cta {
+        margin-top: 40px;
+    }
+    
+    .emergency-call-button {
+        display: inline-flex;
+        align-items: center;
+        padding: 16px 30px;
+        background: linear-gradient(90deg, $color-blue, darken($color-blue, 15%));
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        text-decoration: none;
+        border-radius: 50px;
+        box-shadow: 0 10px 25px rgba($color-blue, 0.3);
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+        
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.7s ease;
+        }
+        
+        &:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba($color-blue, 0.4);
+            
+            &::before {
+                left: 100%;
+            }
+        }
+        
+        &::after {
+            content: '📞';
+            margin-right: 10px;
+            font-size: 18px;
+        }
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 991px) {
+    .emergency-section {
+        padding: 70px 0;
+        
+        .emergency-image-col {
+            margin-bottom: 50px;
+            order: 1;
+        }
+        
+        .emergency-content {
+            padding-left: 0;
+            text-align: center;
+            order: 2;
+            
+            .section-title {
+                h2 {
+                    font-size: 30px;
+                }
+            }
+        }
+        
+        .emergency-call-button {
+            padding: 14px 25px;
+            font-size: 15px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .emergency-section {
+        padding: 50px 0;
+        
+        .emergency-image-col {
+            margin-bottom: 60px; /* Increased space between image and content */
+        }
+        
+        .emergency-image-wrapper {
+            width: 100%;
+            max-width: 350px;
+            
+            &::before, &::after {
+                display: none;
+            }
+        }
+        
+        .emergency-content {
+            .section-title {
+                margin-bottom: 30px;
+                
+                h2 {
+                    font-size: 26px;
+                }
+                
+                p {
+                    font-size: 15px;
+                }
+            }
+        }
+        
+        .emergency-cta {
+            margin-top: 30px;
+            margin-bottom: 20px; /* Added space at the bottom */
+        }
+        
+        .emergency-call-button {
+            width: 100%;
+            justify-content: center;
+            padding: 12px 20px;
+            font-size: 14px;
+        }
+    }
+}
+
+/* Extra Small Devices */
+@media (max-width: 575px) {
+    .emergency-section {
+        padding: 40px 0;
+        
+        .emergency-image-col {
+            margin-bottom: 70px; /* Even more space for extra small devices */
+        }
+        
+        .emergency-image-wrapper {
+            max-width: 280px; /* Smaller max-width for extra small screens */
+        }
+    }
+}
