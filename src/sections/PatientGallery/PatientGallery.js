@@ -3,11 +3,9 @@ import './PatientGallery.scss';
 import SectionTitle from '../../components/SectionTitle/SectionTitle';
 import { useTranslation } from 'react-i18next';
 
-// Import the images of dental work
 import caseImage1 from '../../assets/about/patient-gallery/case1.png';
 import caseImage2 from '../../assets/about/patient-gallery/case2.png';
 import caseImage3 from '../../assets/about/patient-gallery/case3.png';
-import caseImage4 from '../../assets/about/patient-gallery/case4.png';
 
 const PatientGallery = () => {
   const { t } = useTranslation();
@@ -27,11 +25,6 @@ const PatientGallery = () => {
       id: 3,
       image: caseImage3,
       altKey: 'image3Alt'
-    },
-    {
-      id: 4,
-      image: caseImage4,
-      altKey: 'image4Alt'
     }
   ];
 
@@ -44,7 +37,7 @@ const PatientGallery = () => {
           description={t('about.patientGallery.description')}
         />
 
-        <div className="gallery-grid">
+        <div className="gallery-grid gallery-grid-3">
           {galleryItems.map((item) => (
             <div className="gallery-item" key={item.id}>
               <div className="gallery-image">

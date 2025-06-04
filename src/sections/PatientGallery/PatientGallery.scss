@@ -10,9 +10,31 @@
   
   .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     margin-bottom: 50px;
+    
+    &.gallery-grid-3 {
+      grid-template-columns: repeat(3, 1fr);
+      
+      @media (max-width: 991px) {
+        grid-template-columns: repeat(2, 1fr);
+        
+        .gallery-item:last-child {
+          grid-column: 1 / -1;
+          width: 75%;
+          margin: 0 auto;
+        }
+      }
+      
+      @media (max-width: 767px) {
+        grid-template-columns: 1fr;
+        
+        .gallery-item:last-child {
+          grid-column: auto;
+          width: 100%;
+        }
+      }
+    }
   }
   
   .gallery-item {
@@ -82,7 +104,6 @@
     }
     
     .gallery-grid {
-      grid-template-columns: 1fr;
       gap: 20px;
       margin-bottom: 30px;
     }
