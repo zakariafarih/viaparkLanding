@@ -1,0 +1,56 @@
+@import '../../sass/colors.scss';
+
+.emergency-bar {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1050;
+  background: $color-black;
+
+  @media (max-width: 768px) {
+    display: flex;
+  }
+
+  .emergency-bar-btn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 14px 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.2s;
+
+    svg {
+      font-size: 16px;
+    }
+  }
+
+  .emergency-bar-call {
+    background: $color-blue;
+
+    &:hover {
+      background: darken($color-blue, 8%);
+    }
+  }
+
+  .emergency-bar-whatsapp {
+    background: #15803d;
+
+    &:hover {
+      background: darken(#15803d, 8%);
+    }
+  }
+}
+
+/* Add bottom padding to body on mobile so content isn't hidden behind the bar */
+@media (max-width: 768px) {
+  body {
+    padding-bottom: 52px;
+  }
+}

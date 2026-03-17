@@ -7,7 +7,7 @@ const IconList = ({icon, title, description}) => {
         <div className="col-lg-6 col-md-6">
             <div className="icon-list">
                 <div className="icon-area">
-                    <ThemeIcon icon={icon} />
+                    <ThemeIcon icon={icon} alt={title} />
                 </div>
                 <div className="icon-list-text">
                     <h3>{title}</h3>

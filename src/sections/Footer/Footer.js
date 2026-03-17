@@ -4,9 +4,12 @@ import './Footer.scss';
 import { FaEnvelope, FaPhoneAlt, FaWhatsapp } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { trackPhoneClick, trackWhatsAppClick, trackEmailClick } from '../../utils/analytics';
+import { useLangPath } from '../../utils/useLang';
 
 const Footer = () => {
   const { t } = useTranslation();
+  const lp = useLangPath();
   
   const footerMenu = [
     { nameKey: 'home', link: '/' },
@@ -21,6 +24,7 @@ const Footer = () => {
       value: '+34 641 328 992',
       href: 'tel:+34641328992',
       icon: <FaPhoneAlt />,
+      onClick: trackPhoneClick,
     },
     {
       label: t('contact.methods.whatsapp.label'),
@@ -28,12 +32,14 @@ const Footer = () => {
       href: 'https://wa.me/34641328992',
       external: true,
       icon: <FaWhatsapp />,
+      onClick: trackWhatsAppClick,
     },
     {
       label: t('contact.methods.email.label'),
-      value: 'info@viaparkdental.nl',
-      href: 'mailto:info@viaparkdental.nl',
+      value: 'info@viaparkdental.com',
+      href: 'mailto:info@viaparkdental.com',
       icon: <FaEnvelope />,
+      onClick: trackEmailClick,
     },
   ];
 
@@ -44,7 +50,7 @@ const Footer = () => {
           <div className="col-lg-6 col-md-12">
             <div className="footer-brand">
               <div className="footer-logo">
-                <img src={logo} alt={t('footer.logoAlt')} />
+                <img src={logo} alt={t('footer.logoAlt')} width="103" height="32" />
               </div>
               <p className="footer-description">{t('footer.description')}</p>
             </div>
@@ -56,7 +62,7 @@ const Footer = () => {
               <ul>
                 {footerMenu.map((item) => (
                   <li key={item.nameKey}>
-                    <Link to={item.link}>{t(`navbar.${item.nameKey}`)}</Link>
+                    <Link to={lp(item.link)}>{t(`navbar.${item.nameKey}`)}</Link>
                   </li>
                 ))}
               </ul>
@@ -73,8 +79,10 @@ const Footer = () => {
                     className="footer-action-item"
                     key={contact.label}
                     href={contact.href}
-                    target={contact.external ? '_blank' : undefined}
-                    rel={contact.external ? 'noopener noreferrer' : undefined}
+                    {...(contact.external
+                      ? { target: '_blank', rel: 'noopener noreferrer' }
+                      : {})}
+                    onClick={contact.onClick}
                   >
                     <span className="footer-action-icon">{contact.icon}</span>
                     <span className="footer-action-copy">

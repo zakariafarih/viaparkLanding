@@ -1,9 +1,13 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useNavigate, useParams, useLocation } from 'react-router-dom';
 import './LanguageSwitcher.scss';
 
 const LanguageSwitcher = ({ closeParentMenu }) => {
   const { i18n } = useTranslation();
+  const navigate = useNavigate();
+  const { lang } = useParams();
+  const location = useLocation();
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef(null);
 
@@ -14,7 +18,8 @@ const LanguageSwitcher = ({ closeParentMenu }) => {
     { code: 'nl', label: 'Nederlands', flag: '🇳🇱' },
   ];
 
-  const currentLanguage = LANGUAGES.find(lang => lang.code === i18n.language) || LANGUAGES[0];
+  const currentLang = lang || i18n.language || 'en';
+  const currentLanguage = LANGUAGES.find(l => l.code === currentLang) || LANGUAGES[0];
 
   // Close dropdown when clicking outside
   useEffect(() => {
@@ -32,6 +37,9 @@ const LanguageSwitcher = ({ closeParentMenu }) => {
 
   const handleLanguageChange = (code) => {
     i18n.changeLanguage(code);
+    // Replace current language prefix in URL with the new one
+    const pathAfterLang = location.pathname.replace(/^\/[a-z]{2}/, '');
+    navigate(`/${code}${pathAfterLang || ''}`);
     setIsOpen(false);
     
     // Close parent menu if provided

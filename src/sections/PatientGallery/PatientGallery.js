@@ -41,7 +41,7 @@ const PatientGallery = () => {
           {galleryItems.map((item) => (
             <div className="gallery-item" key={item.id}>
               <div className="gallery-image">
-                <img src={item.image} alt={t(`about.patientGallery.${item.altKey}`)} />
+                <img src={item.image} alt={t(`about.patientGallery.${item.altKey}`)} width="800" height="600" loading="lazy" />
               </div>
             </div>
           ))}

@@ -173,7 +173,7 @@
     "methods": {
       "email": {
         "label": "E-mail",
-        "value": "info@viaparkdental.nl"
+        "value": "info@viaparkdental.com"
       },
       "phone": {
         "label": "Telefoon",
@@ -314,5 +314,56 @@
       "process": "Bel ons onmiddellijk bij een tandheelkundige noodsituatie. We plannen zo snel mogelijk een spoedafspraak, vaak dezelfde dag nog. Bij aankomst voeren we een gericht onderzoek uit en maken indien nodig beeldvorming om het probleem te diagnosticeren. Onmiddellijke behandeling richt zich op pijnverlichting en stabilisatie — dit kan drainage van een abces omvatten, spalken van een losse tand, tijdelijke vulling of spoedeisende extractie. Vervolgens wordt een nazorgplan opgesteld voor definitieve behandeling.",
       "regulations": "Spoedeisende tandheelkundige zorg (inclusief extracties en behandeling van acute infecties) is opgenomen in het Spaanse basispakket gezondheidszorg onder Real Decreto 1030/2006. Alle burgers en ingezetenen met publieke ziektekostenverzekering hebben recht op spoedeisende tandheelkundige behandeling via het Sistema Nacional de Salud. In onze privékliniek bieden we directe toegang zonder wachtlijsten, voor zowel verzekerde als particuliere patiënten."
     }
+  },
+  "seo": {
+    "home": {
+      "title": "Tandarts in Orihuela Costa | Clínica Dental Viapark – Implantaten, Spoedhulp & Gezinstadheelkunde",
+      "description": "Nederlandstalige tandartspraktijk in Orihuela Costa. Dr. Nasre biedt implantaten, cosmetische tandheelkunde, orthodontie, kindertandheelkunde en 24u spoedzorg. Bel +34 641 328 992."
+    },
+    "about": {
+      "title": "Over Ons | Clínica Dental Viapark – Dr. Nasre, Orihuela Costa",
+      "description": "Maak kennis met Dr. Nasre en het meertalige team van Clínica Dental Viapark. Gespecialiseerd in implantologie, angstpatiënten en reconstructieve tandheelkunde."
+    },
+    "services": {
+      "title": "Tandheelkundige Diensten | Clínica Dental Viapark – Orihuela Costa",
+      "description": "Volledige tandheelkundige diensten: algemene tandheelkunde, implantaten, orthodontie, esthetische behandelingen, kindertandheelkunde, mondchirurgie en spoedhulp."
+    },
+    "contact": {
+      "title": "Contact | Clínica Dental Viapark – Maak een Afspraak",
+      "description": "Neem contact op met Clínica Dental Viapark in Orihuela Costa. Bel +34 641 328 992, WhatsApp of mail info@viaparkdental.com. Geopend Ma–Vr 09:30–15:00."
+    },
+    "serviceDetail": {
+      "title": "{{serviceName}} | Clínica Dental Viapark – Orihuela Costa",
+      "description": "{{serviceName}} bij Clínica Dental Viapark, Orihuela Costa. Professionele tandheelkundige zorg door Dr. Nasre. Bel +34 641 328 992."
+    }
+  },
+  "faq": {
+    "title": "Veelgestelde Vragen",
+    "items": [
+      {
+        "question": "Welke talen spreken jullie in de kliniek?",
+        "answer": "Ons team spreekt Nederlands, Engels, Duits en Spaans. Wij zorgen voor duidelijke communicatie en comfort voor alle internationale patiënten in Orihuela Costa."
+      },
+      {
+        "question": "Wat zijn jullie openingstijden?",
+        "answer": "Wij zijn geopend van maandag tot vrijdag van 09:30 tot 15:00. Voor tandheelkundige noodsituaties buiten deze tijden, bel +34 641 328 992."
+      },
+      {
+        "question": "Bieden jullie spoedeisende tandheelkundige zorg?",
+        "answer": "Ja, wij bieden dezelfde dag nog spoedeisende tandheelkundige zorg bij pijn, zwelling, trauma of gebroken tanden. Bel ons direct op +34 641 328 992 en we zien u zo snel mogelijk."
+      },
+      {
+        "question": "Hoe maak ik een afspraak?",
+        "answer": "U kunt een afspraak maken door te bellen naar +34 641 328 992, via WhatsApp op hetzelfde nummer, of per e-mail naar info@viaparkdental.com. We streven ernaar dezelfde werkdag te antwoorden."
+      },
+      {
+        "question": "Accepteren jullie tandartsverzekeringen?",
+        "answer": "Wij werken samen met de meeste particuliere tandartsverzekeringen. Neem contact met ons op met uw verzekeringsgegevens en wij bevestigen uw dekking vóór uw afspraak."
+      },
+      {
+        "question": "Is er parkeergelgenheid bij de kliniek?",
+        "answer": "Ja, de kliniek bevindt zich in Centro Comercial Viapark V in Orihuela Costa, dat gratis parkeren biedt voor bezoekers."
+      }
+    ]
   }
 }

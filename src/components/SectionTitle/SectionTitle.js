@@ -1,11 +1,12 @@
 import React from 'react';
 import './SectionTitle.scss';
 
-const SectionTitle = ({subTitle, title, description}) => {
+const SectionTitle = ({subTitle, title, description, headingLevel}) => {
+    const Heading = headingLevel || 'h2';
     return (
         <div className='section-title'>
             <span>{subTitle}</span>
-            <h2>{title}</h2>
+            <Heading>{title}</Heading>
             <p>{description}</p>
         </div>
     );

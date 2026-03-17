@@ -2,11 +2,13 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import './Navbar.scss';
-import logo from './../../assets/logo.png';
+import logo from './../../assets/footer_logo.png';
 import LanguageSwitcher from '../LanguageSwitcher/LanguageSwitcher';
+import { useLangPath } from '../../utils/useLang';
 
 const Navbar = () => {
   const { t } = useTranslation();
+  const lp = useLangPath();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navbarRef = useRef(null);
   const menuRef = useRef(null);
@@ -84,8 +86,8 @@ const Navbar = () => {
       <div className="container">
         <nav className="navbar navbar-expand-lg">
           <div className="container-fluid">
-            <Link className="navbar-brand" to="/" onClick={closeMenu}>
-              <img src={logo} alt="logo" />
+            <Link className="navbar-brand" to={lp('/')} onClick={closeMenu}>
+              <img src={logo} alt="Viapark Dental" width="103" height="32" decoding="async" fetchPriority="low" />
             </Link>
 
             <div className="mobile-right-wrapper">
@@ -116,7 +118,7 @@ const Navbar = () => {
                   <li key={item.path} className="nav-item">
                     <Link 
                       className="nav-link" 
-                      to={item.path}
+                      to={lp(item.path)}
                       onClick={closeMenu}
                     >
                       {item.name}
@@ -131,7 +133,7 @@ const Navbar = () => {
                 </div>
                 
                 <div className="theme-btn">
-                  <Link to="/contact" onClick={closeMenu}>
+                  <Link to={lp('/contact')} onClick={closeMenu}>
                     {t('navbar.cta')}
                   </Link>
                 </div>

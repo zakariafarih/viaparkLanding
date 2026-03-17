@@ -4,14 +4,22 @@ import AboutBanner from '../sections/AboutBanner/AboutBanner';
 import Priority from '../sections/Priority/Priority';
 import PatientGallery from '../sections/PatientGallery/PatientGallery';
 import Footer from '../sections/Footer/Footer';
+import PageSEO from '../components/PageSEO';
 
 const About = () => {
     return (
         <>
+            <PageSEO
+                path="/about"
+                titleKey="seo.about.title"
+                descriptionKey="seo.about.description"
+            />
             <Navbar />
-            <AboutBanner />
-            <Priority />
-            <PatientGallery />
+            <main>
+                <AboutBanner />
+                <Priority />
+                <PatientGallery />
+            </main>
             <Footer />
         </>
     );

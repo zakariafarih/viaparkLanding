@@ -6,16 +6,20 @@ import Footer from '../sections/Footer/Footer';
 import SectionTitle from '../components/SectionTitle/SectionTitle';
 import ServicesData from '../sections/Services/ServiceData';
 import { FaCheckCircle, FaPhoneAlt, FaArrowLeft } from 'react-icons/fa';
+import PageSEO, { getServiceSchema } from '../components/PageSEO';
+import { trackPhoneClick } from '../utils/analytics';
+import { useLangPath } from '../utils/useLang';
 import './ServiceDetail.scss';
 
 const VALID_SERVICES = ServicesData.map(s => s.translationKey);
 
 const ServiceDetail = () => {
-  const { serviceId } = useParams();
+  const { serviceId, lang } = useParams();
   const { t } = useTranslation();
+  const lp = useLangPath();
 
   if (!VALID_SERVICES.includes(serviceId)) {
-    return <Navigate to="/services" replace />;
+    return <Navigate to={`/${lang || 'en'}/services`} replace />;
   }
 
   const serviceData = ServicesData.find(s => s.translationKey === serviceId);
@@ -27,15 +31,25 @@ const ServiceDetail = () => {
     <>
       <Navbar />
 
+      <PageSEO
+        path={`/services/${serviceId}`}
+        titleKey="seo.serviceDetail.title"
+        descriptionKey="seo.serviceDetail.description"
+        titleValues={{ serviceName: title }}
+        descriptionValues={{ serviceName: title }}
+        schema={getServiceSchema(serviceId, t, lang || 'en')}
+      />
+
       {/* Hero */}
+      <main>
       <section className="service-detail-hero">
         <div className="container">
-          <Link to="/services" className="back-link">
+          <Link to={lp('/services')} className="back-link">
             <FaArrowLeft /> {t('serviceDetail.backToServices')}
           </Link>
           <div className="hero-content">
             <div className="hero-icon">
-              <img src={serviceData.icon} alt={title} />
+              <img src={serviceData.icon} alt={title} width="512" height="512" />
             </div>
             <h1>{title}</h1>
             <p className="hero-lead">{description}</p>
@@ -91,7 +105,7 @@ const ServiceDetail = () => {
               <div className="sidebar-card">
                 <h4>{t('serviceDetail.ctaTitle')}</h4>
                 <p>{t('serviceDetail.ctaText')}</p>
-                <a href="tel:+34641328992" className="cta-phone">
+                <a href="tel:+34641328992" className="cta-phone" onClick={trackPhoneClick}>
                   <FaPhoneAlt />
                   <span>+34 641 328 992</span>
                 </a>
@@ -103,7 +117,7 @@ const ServiceDetail = () => {
                 <ul>
                   {ServicesData.filter(s => s.translationKey !== serviceId).map((s, i) => (
                     <li key={i}>
-                      <Link to={`/services/${s.translationKey}`}>
+                      <Link to={lp(`/services/${s.translationKey}`)}>
                         {t(`services.items.${s.translationKey}.title`)}
                       </Link>
                     </li>
@@ -114,6 +128,7 @@ const ServiceDetail = () => {
           </div>
         </div>
       </section>
+      </main>
 
       <Footer />
     </>

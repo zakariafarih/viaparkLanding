@@ -5,6 +5,7 @@ import SectionTitle from '../components/SectionTitle/SectionTitle';
 import Service from '../components/Service/Service';
 import ServicesData from '../sections/Services/ServiceData';
 import { useTranslation } from 'react-i18next';
+import PageSEO from '../components/PageSEO';
 import './Services.scss';
 
 const Services = () => {
@@ -12,8 +13,14 @@ const Services = () => {
 
   return (
     <>
+      <PageSEO
+        path="/services"
+        titleKey="seo.services.title"
+        descriptionKey="seo.services.description"
+      />
       <Navbar />
 
+      <main>
       <section className="all-services-section pt-100 pb-70" data-aos="fade-up" data-aos-duration="2000">
         <div className="container">
           {/* Section header */}
@@ -23,6 +30,7 @@ const Services = () => {
                 subTitle={t('services.page.subTitle')}
                 title={t('services.page.title')}
                 description={t('services.page.description')}
+                headingLevel="h1"
               />
             </div>
           </div>
@@ -35,6 +43,7 @@ const Services = () => {
           </div>
         </div>
       </section>
+      </main>
 
       <Footer />
     </>

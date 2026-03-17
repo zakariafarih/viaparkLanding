@@ -1,6 +1,18 @@
 @import './sass/fonts.scss';
 @import './sass/colors.scss';
 
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 // Common CSS
 body {
     padding: 0;

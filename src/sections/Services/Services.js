@@ -6,9 +6,11 @@ import Service from '../../components/Service/Service';
 import { Link } from 'react-router-dom';
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import { useTranslation } from 'react-i18next';
+import { useLangPath } from '../../utils/useLang';
 
 const Services = () => {
     const { t } = useTranslation();
+    const lp = useLangPath();
     
     const featuredServices = ServicesData.slice(0, 4);
 
@@ -36,7 +38,7 @@ const Services = () => {
                 </div>
                 
                 <div className="view-all-services">
-                    <Link to='/services' className='view-all-btn'>
+                    <Link to={lp('/services')} className='view-all-btn'>
                         <span>{t('services.viewAllButton')}</span>
                         <BsFillArrowRightCircleFill className="arrow-icon" />
                     </Link>

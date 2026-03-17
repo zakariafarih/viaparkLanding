@@ -4,9 +4,11 @@ import SectionTitle from '../../components/SectionTitle/SectionTitle';
 import priorityImg from '../../assets/about/priority.png';
 import './Priority.scss';
 import { useTranslation } from 'react-i18next';
+import { useLangPath } from '../../utils/useLang';
 
 const Priority = () => {
   const { t } = useTranslation();
+  const lp = useLangPath();
 
   return (
     <section className="priority-section" data-aos="fade-up" data-aos-duration="2000">
@@ -15,7 +17,7 @@ const Priority = () => {
           {/* Image Column */}
           <div className="col-lg-6 col-md-6">
             <div className="priority-img">
-              <img src={priorityImg} alt={t('about.priority.imageAlt')} />
+              <img src={priorityImg} alt={t('about.priority.imageAlt')} width="506" height="380" />
             </div>
           </div>
 
@@ -28,7 +30,7 @@ const Priority = () => {
                 description={t('about.priority.description')}
               />
               <div className="theme-btn">
-                <Link to="/contact">{t('common.bookAppointment')}</Link>
+                <Link to={lp('/contact')}>{t('common.bookAppointment')}</Link>
               </div>
             </div>
           </div>

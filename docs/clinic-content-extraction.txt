@@ -39,11 +39,11 @@ Lead dentist / doctor identity
 Contact details
 - Phone: +34 641 328 992
 - Emergency phone label: Dental 24H Emergency
-- Email: info@viaparkdental.nl
+- Email: info@viaparkdental.com
 - WhatsApp: +34 641 328 992
 - Phone link: tel:+34641328992
 - WhatsApp link: https://wa.me/34641328992
-- Email link: mailto:info@viaparkdental.nl
+- Email link: mailto:info@viaparkdental.com
 
 Address
 - C. Lagunas de Ruidera, 127, Loc. 6 Pb
@@ -83,7 +83,7 @@ Document title
 - Clinica Dental Viapark - Orihuela Costa
 
 Meta description
-- Clinica Dental Viapark - Moderne tandheelkunde met een persoonlijke aanpak in Orihuela Costa. Dr. Nasre biedt algemene tandheelkunde, kinderzorg, implantologie, esthetische en reconstructieve behandelingen, orthodontie, chirurgie en 24u noodhulp. Bel/WhatsApp +34 641 328 992 of mail naar info@viaparkdental.nl.
+- Clinica Dental Viapark - Moderne tandheelkunde met een persoonlijke aanpak in Orihuela Costa. Dr. Nasre biedt algemene tandheelkunde, kinderzorg, implantologie, esthetische en reconstructieve behandelingen, orthodontie, chirurgie en 24u noodhulp. Bel/WhatsApp +34 641 328 992 of mail naar info@viaparkdental.com.
 
 Theme color
 - #000000
@@ -267,8 +267,8 @@ Address display in this section
 
 Contact button group shown in this section
 - Email
-  info@viaparkdental.nl
-  mailto:info@viaparkdental.nl
+  info@viaparkdental.com
+  mailto:info@viaparkdental.com
 - Phone
   +34 641 328 992
   tel:+34641328992
@@ -437,8 +437,8 @@ CONTACT PAGE - CONTACT METHODS
 
 Method 1
 - Label: Email
-- Value: info@viaparkdental.nl
-- Link: mailto:info@viaparkdental.nl
+- Value: info@viaparkdental.com
+- Link: mailto:info@viaparkdental.com
 
 Method 2
 - Label: Phone
@@ -607,7 +607,7 @@ Must-carry clinic facts
 - Orihuela Costa location
 - Dr. Nasre
 - +34 641 328 992
-- info@viaparkdental.nl
+- info@viaparkdental.com
 - Monday - Friday, 09:30 - 15:00
 - Multilingual communication
 

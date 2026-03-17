@@ -1,9 +1,10 @@
 import React from 'react';
 import './Emergency.scss';
 import SectionTitle from '../../components/SectionTitle/SectionTitle';
-import EmergencyImg from '../../assets/emergency.png';
+import EmergencyImg from '../../assets/optimized/emergency.webp';
 import { useTranslation } from 'react-i18next';
 import { FaPhoneAlt } from 'react-icons/fa';
+import { trackPhoneClick } from '../../utils/analytics';
 
 const Emergency = () => {
     const { t } = useTranslation();
@@ -14,7 +15,7 @@ const Emergency = () => {
                 <div className="row align-items-center g-4">
                     <div className="col-lg-5 col-md-12 emergency-image-col">
                         <div className="emergency-image-wrapper">
-                            <img src={EmergencyImg} alt="Emergency Dentistry" className="emergency-image" />
+                            <img src={EmergencyImg} alt="Emergency Dentistry" className="emergency-image" width="285" height="380" loading="lazy" decoding="async" />
                         </div>
                     </div>
 
@@ -26,7 +27,7 @@ const Emergency = () => {
                                 description={t('emergency.description')}
                             />
 
-                            <a href="tel:+34641328992" className="emergency-phone-link" aria-label="Call emergency line +34 641 328 992">
+                            <a href="tel:+34641328992" className="emergency-phone-link" aria-label="Call emergency line +34 641 328 992" onClick={trackPhoneClick}>
                                 <FaPhoneAlt aria-hidden="true" />
                                 <span>+34 641 328 992</span>
                             </a>

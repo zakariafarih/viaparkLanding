@@ -9,33 +9,68 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Clínica Dental Viapark – Moderne tandheelkunde met een persoonlijke aanpak in Orihuela Costa. Dr. Nasre biedt algemene tandheelkunde, kinderzorg, implantologie, esthetische en reconstructieve behandelingen, orthodontie, chirurgie en 24u noodhulp. Bel/WhatsApp +34 641 328 992 of mail naar info@viaparkdental.nl."
+      content="Clínica Dental Viapark – Moderne tandheelkunde met een persoonlijke aanpak in Orihuela Costa. Dr. Nasre biedt algemene tandheelkunde, kinderzorg, implantologie, esthetische en reconstructieve behandelingen, orthodontie, chirurgie en 24u noodhulp. Bel/WhatsApp +34 641 328 992 of mail naar info@viaparkdental.com."
     />
-    <!-- AOS -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- Slider Link -->
+    <!-- Google Tag Manager -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+
+      (function (w, d, s, l, i) {
+        function loadGtm() {
+          if (w.__gtmLoaded) return;
+          w.__gtmLoaded = true;
+          removeInteractionListeners();
+          var firstScript = d.getElementsByTagName(s)[0];
+          var gtmScript = d.createElement(s);
+          var dataLayerSuffix = l !== 'dataLayer' ? '&l=' + l : '';
+          gtmScript.async = true;
+          gtmScript.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dataLayerSuffix;
+          firstScript.parentNode.insertBefore(gtmScript, firstScript);
+        }
+
+        function removeInteractionListeners() {
+          interactionEvents.forEach(function (eventName) {
+            w.removeEventListener(eventName, onFirstInteraction, listenerOptions);
+          });
+        }
+
+        function onFirstInteraction() {
+          loadGtm();
+        }
+
+        var interactionEvents = ['pointerdown', 'touchstart', 'keydown', 'scroll'];
+        var listenerOptions = { passive: true, once: true };
+
+        interactionEvents.forEach(function (eventName) {
+          w.addEventListener(eventName, onFirstInteraction, listenerOptions);
+        });
+
+        w.addEventListener('load', function () {
+          w.setTimeout(loadGtm, 6500);
+        }, { once: true });
+      })(window, document, 'script', 'dataLayer', 'GTM-PH98CD3V');
+    </script>
+    <!-- End Google Tag Manager -->
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
-    />
-    <!-- Google Font -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
+      rel="preload"
+      as="image"
+      href="/media/entrance-640.webp"
+      imagesrcset="/media/entrance-640.webp 640w, /media/entrance-960.webp 960w, /media/entrance.webp 1280w"
+      imagesizes="(max-width: 991px) 100vw, 622px"
     />
     <!-- Title -->
     <title>Clínica Dental Viapark – Orihuela Costa</title>
   </head>
 
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PH98CD3V"
+    height="0" width="0" style="display:none;visibility:hidden" title="GTM"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
 
     <div id="root"></div>
-
-    <!-- AOS -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
   </body>
 </html>

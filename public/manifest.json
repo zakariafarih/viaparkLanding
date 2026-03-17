@@ -1,25 +1,16 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Viapark Dental",
+  "name": "Clínica Dental Viapark",
+  "description": "Multilingual dental clinic website for Viapark Dental in Orihuela Costa.",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
+      "src": "favicon.png",
       "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "274x271"
     }
   ],
-  "start_url": ".",
+  "start_url": "/en",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#583FBC",
   "background_color": "#ffffff"
 }

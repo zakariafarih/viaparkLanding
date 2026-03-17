@@ -173,7 +173,7 @@
     "methods": {
       "email": {
         "label": "Email",
-        "value": "info@viaparkdental.nl"
+        "value": "info@viaparkdental.com"
       },
       "phone": {
         "label": "Téléphone",
@@ -314,5 +314,56 @@
       "process": "Appelez-nous immédiatement en cas d'urgence dentaire. Nous programmons un rendez-vous urgent dès que possible, souvent le jour même. À votre arrivée, nous effectuons un examen ciblé et toute imagerie nécessaire pour diagnostiquer le problème. Le traitement immédiat se concentre sur le soulagement de la douleur et la stabilisation — cela peut inclure le drainage d'un abcès, l'attelle d'une dent mobile, un plombage temporaire ou une extraction d'urgence. Un plan de suivi est ensuite organisé pour les soins définitifs.",
       "regulations": "Les soins dentaires d'urgence (y compris les extractions et le traitement des infections aiguës) sont inclus dans le portefeuille de services de santé publique de base de l'Espagne selon le Real Decreto 1030/2006. Tous les citoyens et résidents disposant d'une couverture santé publique ont droit aux soins dentaires d'urgence via le Sistema Nacional de Salud. Dans notre clinique privée, nous offrons un accès immédiat sans liste d'attente, traitant aussi bien les patients assurés que les patients privés."
     }
+  },
+  "seo": {
+    "home": {
+      "title": "Dentiste à Orihuela Costa | Clínica Dental Viapark – Implants, Urgences & Dentisterie Familiale",
+      "description": "Cabinet dentaire multilingue à Orihuela Costa. Dr. Nasre propose implants, dentisterie esthétique, orthodontie, pédodontie et urgences 24H. Appelez +34 641 328 992."
+    },
+    "about": {
+      "title": "À Propos | Clínica Dental Viapark – Dr. Nasre, Orihuela Costa",
+      "description": "Découvrez le Dr. Nasre et l'équipe multilingue de Clínica Dental Viapark. Spécialisé en implantologie, soins aux patients anxieux et dentisterie reconstructive."
+    },
+    "services": {
+      "title": "Services Dentaires | Clínica Dental Viapark – Orihuela Costa",
+      "description": "Gamme complète de services dentaires : dentisterie générale, implants, orthodontie, esthétique, pédodontie, chirurgie buccale et urgences à Orihuela Costa."
+    },
+    "contact": {
+      "title": "Contact | Clínica Dental Viapark – Prenez Rendez-vous",
+      "description": "Contactez Clínica Dental Viapark à Orihuela Costa. Appelez +34 641 328 992, WhatsApp ou email info@viaparkdental.com. Ouvert Lun–Ven 09:30–15:00."
+    },
+    "serviceDetail": {
+      "title": "{{serviceName}} | Clínica Dental Viapark – Orihuela Costa",
+      "description": "{{serviceName}} à Clínica Dental Viapark, Orihuela Costa. Soins dentaires professionnels par le Dr. Nasre. Appelez +34 641 328 992."
+    }
+  },
+  "faq": {
+    "title": "Questions Fréquentes",
+    "items": [
+      {
+        "question": "Quelles langues parlez-vous à la clinique ?",
+        "answer": "Notre équipe parle anglais, néerlandais, allemand et espagnol. Nous assurons une communication claire et un confort optimal pour tous les patients internationaux à Orihuela Costa."
+      },
+      {
+        "question": "Quels sont vos horaires d'ouverture ?",
+        "answer": "Nous sommes ouverts du lundi au vendredi de 09h30 à 15h00. Pour les urgences dentaires en dehors de ces heures, appelez le +34 641 328 992."
+      },
+      {
+        "question": "Proposez-vous des soins dentaires d'urgence ?",
+        "answer": "Oui, nous proposons des soins dentaires d'urgence le jour même pour la douleur, le gonflement, les traumatismes ou les dents cassées. Appelez-nous immédiatement au +34 641 328 992."
+      },
+      {
+        "question": "Comment prendre rendez-vous ?",
+        "answer": "Vous pouvez prendre rendez-vous en appelant le +34 641 328 992, par WhatsApp au même numéro ou par email à info@viaparkdental.com. Nous répondons dans le même jour ouvrable."
+      },
+      {
+        "question": "Acceptez-vous les assurances dentaires ?",
+        "answer": "Nous travaillons avec la plupart des assurances dentaires privées. Contactez-nous avec les détails de votre assurance et nous confirmerons votre couverture avant votre rendez-vous."
+      },
+      {
+        "question": "Y a-t-il un parking près de la clinique ?",
+        "answer": "Oui, la clinique est située dans le Centro Comercial Viapark V à Orihuela Costa, qui offre un parking gratuit pour les visiteurs."
+      }
+    ]
   }
 }

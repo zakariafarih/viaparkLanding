@@ -1,13 +1,11 @@
-import React from 'react';
-
-import generalTeeth from '../../assets/service/generalTeeth.png';
-import pediatric from '../../assets/service/pediatric.png';
-import implant from '../../assets/service/implant.png';
-import aesthetic from '../../assets/service/aesthetic.png';
-import reconstructive from '../../assets/service/reconstructive.png';
-import orthodontics from '../../assets/service/orthodontics.png';
-import surgical from '../../assets/service/surgical.png';
-import emergency from '../../assets/service/emergency.png';
+import generalTeeth from '../../assets/optimized/service/generalTeeth.webp';
+import pediatric from '../../assets/optimized/service/pediatric.webp';
+import implant from '../../assets/optimized/service/implant.webp';
+import aesthetic from '../../assets/optimized/service/aesthetic.webp';
+import reconstructive from '../../assets/optimized/service/reconstructive.webp';
+import orthodontics from '../../assets/optimized/service/orthodontics.webp';
+import surgical from '../../assets/optimized/service/surgical.webp';
+import emergency from '../../assets/optimized/service/emergency.webp';
 
 const ServicesData = [
   {
