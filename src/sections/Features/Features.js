@@ -10,7 +10,7 @@ const Features = () => {
     
     return (
         <section
-            className='section-bg section-common features-section pt-100 pb-70'
+            className='features-section pt-100 pb-70'
             data-aos="fade-up"
             data-aos-duration="2000"
         >

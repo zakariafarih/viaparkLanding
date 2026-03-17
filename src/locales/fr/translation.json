@@ -7,8 +7,9 @@
     "cta": "Prendre rendez-vous"
   },
   "banner": {
-    "headline": "Dentisterie moderne avec une approche personnelle",
-    "lead": "Chaque patient mérite un sourire sain, sans douleur et beau. Mon objectif est d'y parvenir d'une manière calme, claire et centrée sur l'humain.",
+    "headline": "Des Soins Dentaires d'Excellence dans Votre Langue",
+    "lead": "Équipe parlant anglais, néerlandais, allemand et espagnol. Implants sans douleur, esthétique dentaire et urgences 24H à Orihuela Costa.",
+    "languageBadge": "We speak EN · NL · DE · ES",
     "cta": "Prendre rendez-vous",
     "emergency": "Urgence Dentaire 24H",
     "phone": "+34 641 328 992",
@@ -63,7 +64,7 @@
       }
     }
   },
-    "emergency": {
+  "emergency": {
     "subTitle": "Dentisterie d'Urgence",
     "title": "Soins urgents le jour même pour douleur, gonflement ou accidents",
     "description": "À la Clínica Dental Viapark, nous comprenons que les urgences dentaires peuvent survenir à tout moment. Appelez-nous au +34 641 328 992 pour une assistance immédiate--nous nous efforçons de vous voir le jour même.",
@@ -100,7 +101,7 @@
   "appointment": {
     "subTitle": "PRENDRE RENDEZ-VOUS",
     "title": "Planifiez votre visite à la Clínica Dental Viapark",
-    "description": "Nous sommes ouverts du lundi au vendredi : 09h30 - 15h00. Remplissez le formulaire ci-dessous et nous confirmerons votre rendez-vous sous peu.",
+    "description": "Ouverts du lundi au vendredi de 09h30 à 15h00. Contactez-nous par téléphone, WhatsApp ou e-mail et nous organiserons votre visite rapidement.",
     "mapTitle": "Emplacement de la Clinique",
     "address": "C. Lagunas de Ruidera, 127, Loc. 6 Pb<br>Centro Comercial Viapark V<br>03189 Orihuela Costa (Alicante)",
     "form": {
@@ -190,6 +191,128 @@
         "label": "Heures d'Ouverture",
         "value": "Lundi — Vendredi: 09:30 — 15:00\nFermé les weekends"
       }
+    }
+  },
+  "serviceDetail": {
+    "backToServices": "Retour à tous les services",
+    "overviewLabel": "APERÇU",
+    "benefitsLabel": "Avantages Principaux",
+    "processLabel": "À Quoi S'attendre",
+    "regulationsLabel": "Normes & Réglementation",
+    "ctaTitle": "Réserver une Consultation",
+    "ctaText": "Prêt à franchir le pas? Appelez-nous directement pour planifier votre rendez-vous.",
+    "otherServicesLabel": "Autres Services",
+    "general": {
+      "heading": "Soins Dentaires Préventifs & Restaurateurs Complets",
+      "overview": "La dentisterie générale constitue le fondement des soins bucco-dentaires. À la Clínica Dental Viapark, nous réalisons des examens approfondis, des nettoyages professionnels (élimination du tartre et de la plaque), des obturations en composite, des traitements de canal et des soins parodontaux. Des visites régulières tous les 6 à 12 mois — comme le recommande le Consejo General de Dentistas de España — nous permettent de détecter les problèmes précocement, des caries et maladies des gencives aux lésions buccales. Notre approche privilégie la prévention, en utilisant la radiographie numérique pour des diagnostics précis avec une exposition minimale aux radiations.",
+      "benefits": [
+        "Examen buccal complet avec radiographie numérique",
+        "Nettoyage dentaire professionnel (prophylaxie) pour éliminer le tartre et la plaque",
+        "Obturations en composite de la couleur de la dent préservant la structure naturelle",
+        "Détection précoce des caries, maladies des gencives et pathologies buccales",
+        "Plan d'hygiène buccale personnalisé adapté à vos besoins",
+        "Évaluation parodontale et traitement des affections gingivales"
+      ],
+      "process": "Votre première visite commence par un examen buccal complet, incluant des radiographies numériques si nécessaire. Le Dr Nasre évaluera vos dents, vos gencives et votre santé buccale générale, puis discutera des résultats et d'un plan de traitement avec vous. Le nettoyage professionnel est généralement effectué lors de la même séance. Les rendez-vous de suivi sont programmés en fonction de vos besoins individuels, généralement tous les 6 à 12 mois.",
+      "regulations": "Tous les professionnels dentaires de notre clinique sont inscrits au Colegio Oficial de Odontólogos y Estomatólogos, conformément à la Ley 10/1986 espagnole. Nos protocoles de stérilisation et d'hygiène sont conformes à la réglementation sanitaire nationale. Les soins dentaires de base, y compris les extractions et les traitements d'urgence, sont inclus dans le portefeuille de services de santé publique espagnol défini par le Real Decreto 1030/2006, bien que nous offrons une gamme de services beaucoup plus large."
+    },
+    "pediatric": {
+      "heading": "Soins Dentaires Doux et Experts pour Enfants & Adolescents",
+      "overview": "La santé buccale des enfants façonne leur bien-être pour la vie. Notre service de dentisterie pédiatrique est conçu autour des jeunes patients — de leur toute première visite dentaire (recommandée dès l'âge d'un an, selon la Sociedad Española de Odontopediatría) jusqu'à l'adolescence. Nous créons un environnement amical et sans stress avec des explications au niveau de l'enfant. Les traitements comprennent le vernis fluoré, les scellants de fissures pour protéger les molaires permanentes, le traitement précoce des caries et les conseils sur les habitudes. Nous enseignons également les techniques de brossage et de fil dentaire pour établir de bonnes habitudes d'hygiène buccale dès le plus jeune âge.",
+      "benefits": [
+        "Guidance pour la première visite dentaire — recommandée dès l'âge d'un an",
+        "Applications de vernis fluoré pour renforcer l'émail en développement",
+        "Scellants de fissures sur les molaires permanentes pour prévenir les caries",
+        "Traitement des caries adapté à l'âge avec des techniques douces",
+        "Éducation au brossage et au fil dentaire pour enfants et parents",
+        "Surveillance du développement dentaire et dépistage orthodontique précoce"
+      ],
+      "process": "Chaque visite commence par mettre l'enfant à l'aise avec une présentation amicale de notre équipe et de l'équipement. Le dentiste effectue un examen attentif, souvent en utilisant l'approche « expliquer-montrer-faire » pour décrire chaque étape. Les traitements préventifs comme le fluor ou les scellants sont appliqués sans douleur. Les parents reçoivent des conseils sur les soins à domicile, l'alimentation et la planification du prochain contrôle.",
+      "regulations": "Dans la Comunidad Valenciana, les enfants de 6 à 15 ans ont droit à des soins dentaires de base via le programme PADI (Programa de Atención Dental Infantil), établi par le Decreto 97/2010 du Consell. Celui-ci couvre les examens, les traitements au fluor, les scellants de fissures sur les dents permanentes, les obturations et les extractions si nécessaire. Notre clinique est équipée pour fournir ces soins et bien plus encore, y compris des traitements au-delà du champ du programme public."
+    },
+    "implant": {
+      "heading": "Remplacement Dentaire Permanent et d'Apparence Naturelle",
+      "overview": "Les implants dentaires sont la référence pour le remplacement des dents manquantes. Un pilier en titane est placé chirurgicalement dans l'os de la mâchoire, où il s'intègre pendant plusieurs semaines (ostéo-intégration) pour former une base stable pour une couronne, un bridge ou une prothèse. Le Dr Nasre possède une vaste expérience en implantologie, utilisant des systèmes d'implants établis portant le marquage CE et conformes au Règlement Européen relatif aux Dispositifs Médicaux (EU MDR 2017/745). Les implants ont l'apparence, la sensation et la fonction de dents naturelles, avec des taux de succès documentés de 95 à 98% sur dix ans avec un entretien approprié.",
+      "benefits": [
+        "Solution permanente — les implants peuvent durer toute une vie avec des soins appropriés",
+        "Apparence et fonction naturelles identiques aux vraies dents",
+        "Préserve l'os de la mâchoire et prévient la perte osseuse après extraction",
+        "Aucun dommage aux dents saines adjacentes (contrairement aux bridges traditionnels)",
+        "Taux de succès élevé à long terme : 95–98% documenté sur 10 ans",
+        "Options pour une dent unique, plusieurs dents ou réhabilitation complète d'arcade"
+      ],
+      "process": "Le traitement commence par une évaluation détaillée incluant l'imagerie 3D pour évaluer le volume osseux et planifier le placement de l'implant avec précision. L'implant en titane est placé sous anesthésie locale lors d'une courte intervention chirurgicale. Une période de cicatrisation de 8 à 16 semaines permet à l'implant de s'intégrer à l'os. Une fois stable, une couronne sur mesure en porcelaine ou zircone est fixée. Tout au long du processus, vous recevez des informations claires sur chaque étape et des instructions de suivi.",
+      "regulations": "Tous les composants d'implants utilisés dans notre clinique portent le marquage CE et sont conformes au Règlement UE relatif aux Dispositifs Médicaux 2017/745. La chirurgie implantaire en Espagne doit être réalisée par un dentiste ou chirurgien buccal agréé, inscrit au Colegio Oficial de Odontólogos. Nos protocoles chirurgicaux suivent les normes de contrôle des infections fixées par la législation sanitaire espagnole, incluant une stérilisation adéquate, des consommables à usage unique et la traçabilité de tous les dispositifs implantés."
+    },
+    "aesthetic": {
+      "heading": "Traitements Esthétiques pour un Sourire Confiant",
+      "overview": "La dentisterie esthétique se concentre sur l'amélioration de l'apparence de votre sourire tout en préservant la santé dentaire. Nous proposons le blanchiment professionnel en cabinet, les facettes en porcelaine et composite, le collage esthétique, le remodelage gingival et les relookings de sourire. Chaque traitement est planifié en tenant compte de vos traits du visage et de vos attentes. Nos protocoles de blanchiment utilisent des produits conformes à la Directive 2011/84/UE du Conseil, qui limite la concentration de peroxyde d'hydrogène à un maximum de 6% — une limite que seuls les professionnels dentaires agréés sont autorisés à appliquer, garantissant sécurité et efficacité.",
+      "benefits": [
+        "Blanchiment dentaire professionnel avec des produits cliniquement testés",
+        "Facettes en porcelaine pour une transformation durable et naturelle",
+        "Collage en composite pour réparer éclats, espaces ou décoloration",
+        "Remodelage gingival pour un sourire équilibré et symétrique",
+        "Design de sourire personnalisé tenant compte de l'esthétique faciale",
+        "Résultats visibles immédiats avec des résultats durables"
+      ],
+      "process": "Le traitement commence par une analyse du sourire, où nous évaluons la couleur, la forme, l'alignement de vos dents et la ligne gingivale. Pour le blanchiment, nous appliquons un gel professionnel dans des conditions contrôlées pour des résultats optimaux en une seule séance. Les facettes nécessitent deux visites : la première pour la préparation et les empreintes, la seconde pour le collage des coques en porcelaine sur mesure. Le collage en composite peut souvent être réalisé en un seul rendez-vous.",
+      "regulations": "Le blanchiment dentaire dans l'UE est réglementé par la Directive 2011/84/UE du Conseil. Les produits contenant entre 0,1% et 6% de peroxyde d'hydrogène (ou équivalent) ne peuvent être délivrés et appliqués que par un professionnel dentaire qualifié. Les produits en vente libre au-dessus de 0,1% sont interdits à la vente directe au consommateur. Tous les matériaux esthétiques que nous utilisons portent le marquage CE et respectent les normes de sécurité de l'UE en matière de biocompatibilité."
+    },
+    "reconstructive": {
+      "heading": "Réhabilitation Fonctionnelle & Esthétique des Dommages Dentaires Complexes",
+      "overview": "La dentisterie reconstructive restaure les dents sévèrement usées, endommagées ou manquantes suite à un traumatisme, des caries, du bruxisme ou le vieillissement. Les traitements vont des couronnes et bridges individuels aux réhabilitations buccales complètes combinant implants, prothèses et techniques esthétiques. Le Dr Nasre élabore un plan de traitement complet sur mesure pour restaurer à la fois la fonction (mastication, parole) et l'apparence. Nous utilisons des restaurations en céramique, zircone et céramo-métallique de haute qualité — toutes marquées CE et fabriquées par des laboratoires dentaires certifiés.",
+      "benefits": [
+        "Restauration complète de la fonction masticatoire et de l'équilibre de l'occlusion",
+        "Réhabilitation esthétique même dans les cas complexes multi-dents",
+        "Couronnes en céramique et zircone de haute qualité pour un aspect naturel",
+        "Solutions combinées implant-prothèse pour perte dentaire étendue",
+        "Traitement de l'usure liée au bruxisme avec des approches protectrices",
+        "Amélioration de la parole et du confort grâce à une dentition correctement restaurée"
+      ],
+      "process": "Nous commençons par une évaluation complète incluant des radiographies et, si nécessaire, des modèles d'étude et des photographies. Un plan de traitement phasé est présenté, couvrant tout travail préparatoire nécessaire (comme la pose d'implants ou le traitement gingival), suivi de la phase restauratrice. Des restaurations provisoires protègent vos dents pendant la fabrication des prothèses définitives. Chaque couronne, bridge ou facette est essayé, ajusté et scellé définitivement une fois que vous approuvez l'ajustement et l'esthétique.",
+      "regulations": "Toutes les restaurations prothétiques sont fabriquées par des laboratoires dentaires conformes au Règlement UE relatif aux Dispositifs Médicaux 2017/745 et doivent porter une déclaration de conformité. Les matériaux utilisés — céramiques, zircone et alliages — respectent les normes de biocompatibilité selon EN ISO 10993. La Ley 10/1986 espagnole garantit que toutes les procédures reconstructives sont réalisées par des professionnels dentaires qualifiés et inscrits."
+    },
+    "orthodontics": {
+      "heading": "Des Dents Plus Droites avec un Appareil ou des Aligneurs Transparents",
+      "overview": "Le traitement orthodontique corrige les dents mal alignées et les malocclusions, améliorant à la fois l'esthétique et la fonction buccale. Nous proposons des appareils métalliques traditionnels, des appareils en céramique (de la couleur des dents) et des aligneurs transparents Invisalign pour une option quasi invisible. Le traitement est disponible pour les enfants, les adolescents et les adultes — il n'est jamais trop tard pour obtenir un sourire plus droit. Le Dr Nasre conçoit chaque plan de traitement à l'aide de l'imagerie numérique et, pour les cas Invisalign, d'une simulation 3D du traitement pour que vous puissiez prévisualiser vos résultats avant de commencer.",
+      "benefits": [
+        "Corrige les dents encombrées, espacées ou mal alignées",
+        "Améliore la fonction de l'occlusion et réduit la tension de la mâchoire",
+        "Aligneurs transparents Invisalign pour un traitement discret",
+        "Planification numérique du traitement avec aperçu 3D du sourire",
+        "Options pour tous les âges — enfants, adolescents et adultes",
+        "Meilleure hygiène buccale à long terme avec des dents correctement alignées"
+      ],
+      "process": "Lors de la consultation initiale, nous évaluons l'alignement de vos dents, l'occlusion et la relation de la mâchoire avec des scans numériques et des photographies. Un plan de traitement personnalisé décrit le calendrier prévu (généralement 12 à 24 mois pour les cas complets). Pour les appareils, les brackets sont collés sur les dents et ajustés à intervalles réguliers. Pour Invisalign, vous recevez une série d'aligneurs transparents sur mesure, changés toutes les 1 à 2 semaines. Les progrès sont suivis lors de contrôles toutes les 4 à 8 semaines.",
+      "regulations": "Le traitement orthodontique en Espagne doit être réalisé par un dentiste ayant la formation appropriée. Les aligneurs Invisalign et autres appareils orthodontiques sont classés comme dispositifs médicaux sur mesure selon le EU MDR 2017/745 et nécessitent une déclaration de fabrication. Tous les matériaux utilisés portent le marquage CE et sont biocompatibles. Le traitement orthodontique n'est pas couvert par le système de santé publique espagnol (SNS) pour les adultes ; pour les enfants, la couverture varie selon la communauté autonome."
+    },
+    "surgical": {
+      "heading": "Interventions Chirurgicales Buccales Sûres et Professionnelles",
+      "overview": "Nos services de chirurgie buccale couvrent les interventions chirurgicales dentaires les plus courantes : extraction des dents de sagesse (y compris les troisièmes molaires incluses), extractions chirurgicales, apicectomie (chirurgie de l'apex radiculaire), ablation de kystes dentaires et interventions mineures de la mâchoire. Toutes les chirurgies sont réalisées sous anesthésie locale, avec sédation consciente disponible pour les patients anxieux. Le Dr Nasre applique des techniques mini-invasives pour réduire l'inconfort postopératoire et accélérer la guérison.",
+      "benefits": [
+        "Extraction experte des dents de sagesse incluses ou compliquées",
+        "Apicectomie pour sauver les dents avec des infections radiculaires persistantes",
+        "Ablation de kystes dentaires et lésions buccales bénignes",
+        "Techniques mini-invasives pour une guérison plus rapide",
+        "Anesthésie locale avec options de sédation pour le confort du patient",
+        "Instructions claires de soins postopératoires et suivi"
+      ],
+      "process": "Avant toute intervention chirurgicale, nous effectuons une évaluation approfondie avec imagerie panoramique ou 3D pour planifier l'approche. La procédure est expliquée en détail pour que vous sachiez à quoi vous attendre. Le jour de la chirurgie, l'anesthésie locale assure votre confort total. La plupart des interventions durent 30 à 60 minutes. Vous recevez des instructions écrites de soins postopératoires couvrant la gestion de la douleur, l'alimentation et l'hygiène. Un rendez-vous de contrôle est programmé pour surveiller la guérison.",
+      "regulations": "Les interventions de chirurgie buccale en Espagne doivent être réalisées par des dentistes ou stomatologues inscrits au Colegio Oficial. Notre clinique suit des protocoles de stérilisation stricts conformément à la réglementation sanitaire espagnole et aux normes européennes de contrôle des infections. Pour les interventions nécessitant une sédation, nous respectons les directives de la Sociedad Española de Cirugía Bucal (SECIB). Les cas chirurgicaux d'urgence sont partiellement couverts par le portefeuille de base des services de santé espagnols (Real Decreto 1030/2006)."
+    },
+    "emergency": {
+      "heading": "Aide Immédiate Quand Vous en Avez le Plus Besoin",
+      "overview": "Les urgences dentaires — douleur dentaire sévère, traumatisme buccal, dent expulsée, restauration cassée, ou gonflement et infection — nécessitent une attention professionnelle rapide. À la Clínica Dental Viapark, nous donnons la priorité aux rendez-vous d'urgence le jour même pour diagnostiquer le problème, soulager la douleur, contrôler l'infection et commencer le traitement définitif. Si une dent a été expulsée, le temps est crucial : la réimplantation dans les 30 à 60 minutes améliore significativement les chances de sauver la dent. Appelez-nous immédiatement au +34 641 328 992.",
+      "benefits": [
+        "Rendez-vous d'urgence le jour même — nous visons à vous voir dans les heures",
+        "Soulagement rapide de la douleur et contrôle des infections",
+        "Traitement des dents expulsées, fissurées ou cassées",
+        "Réparation d'urgence de couronnes, bridges et prothèses",
+        "Conseils téléphoniques en dehors des heures pour les situations urgentes",
+        "Transition fluide vers le traitement restaurateur de suivi"
+      ],
+      "process": "Appelez-nous immédiatement en cas d'urgence dentaire. Nous programmons un rendez-vous urgent dès que possible, souvent le jour même. À votre arrivée, nous effectuons un examen ciblé et toute imagerie nécessaire pour diagnostiquer le problème. Le traitement immédiat se concentre sur le soulagement de la douleur et la stabilisation — cela peut inclure le drainage d'un abcès, l'attelle d'une dent mobile, un plombage temporaire ou une extraction d'urgence. Un plan de suivi est ensuite organisé pour les soins définitifs.",
+      "regulations": "Les soins dentaires d'urgence (y compris les extractions et le traitement des infections aiguës) sont inclus dans le portefeuille de services de santé publique de base de l'Espagne selon le Real Decreto 1030/2006. Tous les citoyens et résidents disposant d'une couverture santé publique ont droit aux soins dentaires d'urgence via le Sistema Nacional de Salud. Dans notre clinique privée, nous offrons un accès immédiat sans liste d'attente, traitant aussi bien les patients assurés que les patients privés."
     }
   }
 }

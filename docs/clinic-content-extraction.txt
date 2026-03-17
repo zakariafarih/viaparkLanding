@@ -1,0 +1,628 @@
+CLINICA DENTAL VIAPARK
+Complete English-first content extraction for migration to a new Framer/Astro template
+
+Source scope
+- Active public metadata from public/index.html
+- Active routes from src/App.js
+- Shared navigation and footer content from src/components/Navbar/Navbar.js and src/sections/Footer/Footer.js
+- Main English copy from src/locales/en/translation.json
+- Active page composition from src/pages/Home.js, src/pages/About.js, src/pages/Services.js, and src/pages/Contact/Contactus.js
+- Active section content from Banner, Services, Emergency, Features, Appointment, AboutBanner, Priority, PatientGallery, ContactButtons
+
+Important scope note
+- This file focuses on active pages and active shared site content.
+- Dormant template leftovers were not treated as clinic content: src/sections/Gallery/Gallery.js and src/sections/ServiceBanner/ServiceBanner.js.
+- The site is multilingual. Equivalent content exists in Spanish, French, and Dutch locale files, but this extraction is English-first for migration.
+
+==================================================
+1. CANONICAL CLINIC FACTS
+==================================================
+
+Brand name
+- Clinica Dental Viapark
+
+Primary positioning
+- Modern dentistry with a personal approach
+
+Short clinic summary
+- Clinica Dental Viapark offers modern dentistry with a personal approach.
+- The clinic combines advanced technology with calm, human-centered care.
+- The clinic presents itself as family-focused and suitable for both adults and children.
+- The site strongly emphasizes comfort, clarity, multilingual communication, and urgent dental support.
+
+Lead dentist / doctor identity
+- Doctor name: Dr. Nasre
+- Doctor title: Dentist
+- About-page positioning: Dr. Nasre is presented as specialized in implantology, anxious patient care, and reconstructive dentistry.
+- Feature positioning: Dr. Nasre treats each patient with a calm, clear approach and is presented as suitable for patients with dental anxiety.
+
+Contact details
+- Phone: +34 641 328 992
+- Emergency phone label: Dental 24H Emergency
+- Email: info@viaparkdental.nl
+- WhatsApp: +34 641 328 992
+- Phone link: tel:+34641328992
+- WhatsApp link: https://wa.me/34641328992
+- Email link: mailto:info@viaparkdental.nl
+
+Address
+- C. Lagunas de Ruidera, 127, Loc. 6 Pb
+- Centro Comercial Viapark V
+- 03189 Orihuela Costa (Alicante)
+
+Opening hours
+- Monday - Friday: 09:30 - 15:00
+- Closed on weekends
+
+Languages and multilingual support
+- The site supports English, Spanish, French, and Dutch.
+- Language switcher labels:
+  English
+  Espanol
+  Francais
+  Nederlands
+- Clinic strength claim: multilingual team
+- Multilingual-team description on the English site: staff speaks Dutch, German, and English.
+
+Social profiles
+- Facebook: https://www.facebook.com/viaparkdental
+- Instagram: https://www.instagram.com/viaparkdental
+- Twitter: https://twitter.com/viaparkdental
+
+Map / location embed
+- Google Maps embed is used on the appointment/contact surfaces.
+- Embed title on contact page: Our Location
+- Embed title on appointment section: Clinic Location
+- The current embed references: Viapark Dental - Deutscher Zahnarzt
+
+==================================================
+2. SEO / METADATA EXTRACTION
+==================================================
+
+Document title
+- Clinica Dental Viapark - Orihuela Costa
+
+Meta description
+- Clinica Dental Viapark - Moderne tandheelkunde met een persoonlijke aanpak in Orihuela Costa. Dr. Nasre biedt algemene tandheelkunde, kinderzorg, implantologie, esthetische en reconstructieve behandelingen, orthodontie, chirurgie en 24u noodhulp. Bel/WhatsApp +34 641 328 992 of mail naar info@viaparkdental.nl.
+
+Theme color
+- #000000
+
+Global metadata observations relevant to migration
+- The HTML document language is currently set to en.
+- The meta description is written in Dutch, not English.
+- The clinic title is location-based rather than service-based.
+
+==================================================
+3. GLOBAL SITE CHROME
+==================================================
+
+Navigation labels
+- Home
+- About Us
+- Services
+- Contact Us
+
+Global navigation CTA
+- Book appointment
+- CTA target in the current site: /contact
+
+Footer summary text
+- Clinica Dental Viapark offers modern dentistry with a personal approach. From general checkups to implants, aesthetic treatments, and emergency care: quality and comfort are our top priorities.
+
+Footer quick links
+- Home
+- About Us
+- Services
+- Contact Us
+
+Footer contact block labels
+- Phone Number
+- Opening Hours
+- Clinic Address
+
+Footer legal labels currently linked in UI
+- Terms of Use
+- Privacy Policy
+
+Global recurring CTA labels found across the site
+- Book appointment
+- Book an appointment
+- View all service list
+- Call Now
+- Follow us on
+
+==================================================
+4. PAGE-BY-PAGE EXTRACTION
+==================================================
+
+----------------------------------------
+HOME PAGE
+Route: /
+----------------------------------------
+
+Home page section order
+- Navbar
+- Hero banner
+- Featured services
+- Emergency dentistry section
+- Features / strengths
+- Appointment/contact section with map and contact buttons
+- Footer
+
+HOME PAGE - HERO BANNER
+
+Headline
+- Modern dentistry with a personal approach
+
+Lead paragraph
+- Every patient deserves a healthy, pain-free, and beautiful smile. My goal is to achieve that in a calm, clear, and human-centered way.
+
+Primary CTA
+- Book an appointment
+- Target: /contact
+
+Emergency call box content
+- Label: Dental 24H Emergency
+- Number shown: +34 641 328 992
+
+Doctor info box
+- Dr. Nasre
+- Dentist
+
+Hero visual/content notes
+- Main banner model image is shown
+- Separate doctor image is shown in the hero info box
+- Decorative vector/pattern shapes are used around the hero imagery
+
+HOME PAGE - FEATURED SERVICES SECTION
+
+Section subtitle
+- Services
+
+Section title
+- High-quality dental care for the whole family
+
+Section description
+- At Clinica Dental Viapark, we combine modern technology with a personal approach to offer everything from general checkups to implants, aesthetics, orthodontics, and emergency care -- tailored to both children and adults.
+
+Featured services displayed on home page
+- General Dentistry
+  Prevention and maintenance: regular checkups, professional cleanings, fillings, and overall care to keep your oral health in top shape.
+- Pediatric and Youth Dentistry
+  Friendly care for our youngest patients: preventive care (fluoride, fillings), explanations at their level, and brushing lessons to avoid cavities.
+- Implantology
+  Permanent solutions for missing teeth: Dr. Nasre places durable, natural-looking implants as long-term tooth replacements.
+- Aesthetic Dentistry
+  Cosmetic treatments to make your smile shine: professional whitening, veneers, or composite build-up for an improved aesthetic result.
+
+Section CTA
+- View all service list
+- Target: /services
+
+HOME PAGE - EMERGENCY DENTISTRY SECTION
+
+Section subtitle
+- Emergency Dentistry
+
+Section title
+- Same-day urgent care for pain, swelling or accidents
+
+Section description
+- At Clinica Dental Viapark, we understand that dental emergencies can happen anytime. Call us at +34 641 328 992 for immediate assistance -- we strive to see you on the very same day.
+
+Emergency CTA button
+- Call Now: +34 641 328 992
+- Link target: tel:+34641328992
+
+Emergency visual/content notes
+- Emergency dentistry image is shown alongside the text block.
+
+HOME PAGE - FEATURES / STRENGTHS SECTION
+
+Section subtitle
+- Our Strengths
+
+Section title
+- Modern dentistry with a personal approach
+
+Section description
+- At Clinica Dental Viapark, we combine advanced techniques, a calm environment, and personalized care -- so every patient leaves with a healthy, pain-free smile.
+
+Feature 1
+- Title: Personalized Care
+- Description: Dr. Nasre treats each patient with a calm, clear approach -- perfect for those with dental anxiety.
+
+Feature 2
+- Title: Multilingual Team
+- Description: Our staff speaks Dutch, German, and English, ensuring clear communication and comfort.
+
+Feature 3
+- Title: Comprehensive Family Dentistry
+- Description: From children to seniors, we cover everything -- general checkups, pediatric, implants, and more.
+
+Feature 4
+- Title: Modern Techniques and Comfort
+- Description: We use the latest equipment and a gentle environment to prioritize your quality of care.
+
+HOME PAGE - APPOINTMENT / CONTACT SECTION
+
+Section subtitle
+- BOOK APPOINTMENT
+
+Section title
+- Schedule Your Visit at Clinica Dental Viapark
+
+Section description
+- We're open Monday -- Friday: 09:30 -- 15:00. Fill out the form below and we'll confirm your appointment shortly.
+
+Important implementation reality
+- The current site does not actually show a booking form in this section.
+- Instead, it shows a Google Maps embed plus contact buttons for email, phone, and WhatsApp.
+
+Address display in this section
+- C. Lagunas de Ruidera, 127, Loc. 6 Pb
+- Centro Comercial Viapark V
+- 03189 Orihuela Costa (Alicante)
+
+Contact button group shown in this section
+- Email
+  info@viaparkdental.nl
+  mailto:info@viaparkdental.nl
+- Phone
+  +34 641 328 992
+  tel:+34641328992
+- WhatsApp
+  +34 641 328 992
+  https://wa.me/34641328992
+
+Emergency mini-block inside contact buttons area
+- Label: Dental 24H Emergency
+- Number: +34 641 328 992
+
+Hours mini-block inside contact buttons area
+- Opening Hours
+- Mon - Fri: 09:30 - 15:00
+
+----------------------------------------
+ABOUT PAGE
+Route: /about
+----------------------------------------
+
+About page section order
+- Navbar
+- About banner / introduction
+- Priority / values section
+- Patient gallery / work showcase
+- Footer
+
+ABOUT PAGE - INTRO / ABOUT BANNER
+
+Title
+- About Clinica Dental Viapark
+
+Description
+- At Clinica Dental Viapark, we combine modern dentistry with a personal approach. Led by Dr. Nasre -- specialized in implantology, anxious patient care, and reconstructive dentistry -- we strive to give every patient a healthy, pain-free, and beautiful smile.
+
+CTA
+- Book an Appointment
+- Target: /contact
+
+Image/alt content notes
+- Image 1 alt meaning: Dr. Nasre at work
+- Image 2 alt meaning: Clinic interior
+- Decorative pattern image is also used
+
+ABOUT PAGE - PRIORITY / VALUES SECTION
+
+Section subtitle
+- OUR PRIORITY
+
+Section title
+- Your smile, our mission
+
+Section description
+- Every patient deserves a healthy, pain-free, and beautiful smile. With years of experience and a calm, clear approach, Dr. Nasre and the team ensure even the most anxious patients feel at ease. We speak Dutch, German, and English, and always put your comfort first.
+
+CTA
+- Book an Appointment
+- Target: /contact
+
+Visual/content note
+- A clinic priority illustration is shown next to the content.
+
+ABOUT PAGE - PATIENT GALLERY / WORK PROOF
+
+Section subtitle
+- OUR WORK
+
+Section title
+- Gallery of dental cases
+
+Section description
+- A selection of our dental work showcasing the quality and precision we bring to every patient's treatment.
+
+Gallery asset/content notes
+- Case example 1 image
+- Case example 2 image
+- Case example 3 image
+
+Gallery CTA-style closing content
+- Interested in seeing more of our work?
+- These are just a few examples of the treatments we provide. During your consultation, we can discuss your specific needs and show you additional cases that relate to your dental situation.
+
+----------------------------------------
+SERVICES PAGE
+Route: /services
+----------------------------------------
+
+Services page section order
+- Navbar
+- Services page intro header
+- Full service grid
+- Footer
+
+SERVICES PAGE - INTRO HEADER
+
+Section subtitle
+- Our Services
+
+Section title
+- High-quality dental care for the whole family
+
+Section description
+- At Clinica Dental Viapark, we combine modern technology with a personal approach to offer everything from general checkups to implants, aesthetics, orthodontics, and emergency care -- tailored to both children and adults.
+
+SERVICES PAGE - FULL SERVICE INVENTORY
+
+Service 1
+- General Dentistry
+- Prevention and maintenance: regular checkups, professional cleanings, fillings, and overall care to keep your oral health in top shape.
+
+Service 2
+- Pediatric and Youth Dentistry
+- Friendly care for our youngest patients: preventive care (fluoride, fillings), explanations at their level, and brushing lessons to avoid cavities.
+
+Service 3
+- Implantology
+- Permanent solutions for missing teeth: Dr. Nasre places durable, natural-looking implants as long-term tooth replacements.
+
+Service 4
+- Aesthetic Dentistry
+- Cosmetic treatments to make your smile shine: professional whitening, veneers, or composite build-up for an improved aesthetic result.
+
+Service 5
+- Reconstructive Dentistry
+- Restoration of complex dental damage: functional and aesthetic rehabilitation for wear, trauma, or multiple missing teeth.
+
+Service 6
+- Orthodontics and Aligners
+- Straight teeth for kids and adults: traditional braces or nearly invisible Invisalign aligners for comfortable, discreet alignment.
+
+Service 7
+- Oral Surgery
+- Minor surgical procedures: wisdom tooth removal, small jaw interventions, and treatment of dental infections.
+
+Service 8
+- Emergency Dentistry
+- Same-day urgent care for pain, swelling or accidents: call us immediately -- our goal is to help you on the very same day.
+
+Service visual/content notes
+- Each service card uses a dedicated service icon.
+- The current code links service card titles to /singleservice, but no such public route exists in the active app.
+
+----------------------------------------
+CONTACT PAGE
+Route: /contact
+----------------------------------------
+
+Contact page section order
+- Navbar
+- Contact intro and methods
+- Google map/location block
+- Footer
+
+CONTACT PAGE - INTRO
+
+Section subtitle
+- GET IN TOUCH
+
+Section title
+- Contact Clinica Dental Viapark
+
+Section description
+- Have questions or need an appointment? Reach out to us directly through any of the following methods. We'll be happy to assist you.
+
+CONTACT PAGE - CONTACT METHODS
+
+Method 1
+- Label: Email
+- Value: info@viaparkdental.nl
+- Link: mailto:info@viaparkdental.nl
+
+Method 2
+- Label: Phone
+- Value: +34 641 328 992
+- Link: tel:+34641328992
+
+Method 3
+- Label: WhatsApp
+- Value: +34 641 328 992
+- Link: https://wa.me/34641328992
+
+Method 4
+- Label: Visit Us
+- Value:
+  C. Lagunas de Ruidera, 127, Loc. 6 Pb
+  Centro Comercial Viapark V
+  03189 Orihuela Costa (Alicante)
+
+Method 5
+- Label: Opening Hours
+- Value:
+  Monday - Friday: 09:30 - 15:00
+  Closed on weekends
+
+CONTACT PAGE - MAP / LOCATION BLOCK
+
+Map title
+- Our Location
+
+Current embed implementation note
+- The contact page uses a Google Maps iframe embed.
+- The current embed references the place name Viapark Dental - Deutscher Zahnarzt.
+
+==================================================
+5. SERVICE TAXONOMY SUMMARY
+==================================================
+
+The clinic currently markets these eight service categories:
+- General Dentistry
+- Pediatric and Youth Dentistry
+- Implantology
+- Aesthetic Dentistry
+- Reconstructive Dentistry
+- Orthodontics and Aligners
+- Oral Surgery
+- Emergency Dentistry
+
+Service promise summary
+- The clinic presents itself as capable of serving both adults and children.
+- The service mix covers prevention, aesthetic work, reconstruction, orthodontics, surgery, and emergency treatment.
+
+==================================================
+6. CLINIC VALUE PROPOSITION SUMMARY
+==================================================
+
+Core positioning themes extracted from the site
+- Modern dentistry
+- Personal approach
+- Calm and clear communication
+- Suitable for anxious patients
+- Multilingual team
+- High-quality care for the whole family
+- Modern techniques and comfort
+- Same-day emergency responsiveness
+
+Audience implications visible in the copy
+- Families
+- International residents and expats
+- Patients who value multilingual communication
+- Patients with dental anxiety
+- Patients needing routine care, aesthetic work, or urgent care
+
+==================================================
+7. IMAGE AND VISUAL CONTENT NOTES
+==================================================
+
+Hero / home visuals
+- Banner model image
+- Doctor portrait image in info box
+- Decorative abstract shapes and patterns
+
+About page visuals
+- Dr. Nasre at work
+- Clinic interior
+- Priority illustration
+
+Patient gallery visuals
+- Three case images representing dental work examples
+
+Service visuals
+- One icon per service category
+
+Footer visuals
+- Footer logo
+- Contact icons for phone, time, and location
+
+==================================================
+8. MULTILINGUAL NOTES
+==================================================
+
+Supported locales in the current project
+- English: src/locales/en/translation.json
+- Spanish: src/locales/es/translation.json
+- French: src/locales/fr/translation.json
+- Dutch: src/locales/nl/translation.json
+
+Language switcher behavior
+- The UI lets visitors switch language directly from the navbar.
+- Desktop and mobile navigation both expose the language switcher.
+
+Migration guidance for multilingual handling
+- English can be used as the canonical migration source for content structure.
+- The equivalent translated copy should be carried over from the existing locale files rather than retranslated from this English extraction.
+
+==================================================
+9. MIGRATION NOTES FOR FRAMER / ASTRO
+==================================================
+
+Content and implementation mismatches to be aware of
+- The appointment section copy still mentions a form, but the live implementation shows contact buttons instead of a form.
+- The phrase Dental 24H Emergency appears in multiple places, while the general opening hours are Monday to Friday, 09:30 - 15:00.
+- Contact details are duplicated across translation files, contact components, footer, and metadata.
+- The map embed is hardcoded in components and should be normalized in the new template.
+- Social URLs are hardcoded in the footer component.
+
+Route/content mismatches to be aware of
+- Service cards link to /singleservice in the current React code, but no such route exists.
+- Footer includes Terms of Use and Privacy Policy links, but no matching public routes exist in the active app.
+
+Recommended content model for the next template
+- Global site settings
+  brand name
+  SEO title
+  SEO description
+  phone
+  email
+  WhatsApp
+  address
+  hours
+  socials
+  supported languages
+- Home page
+  hero
+  featured services
+  emergency block
+  strengths block
+  appointment/contact block
+- About page
+  intro
+  values block
+  work gallery block
+- Services page
+  page intro
+  services list
+- Contact page
+  intro
+  contact methods
+  map/location block
+
+==================================================
+10. CONTENT CHECKLIST FOR REBUILD
+==================================================
+
+Must-carry clinic facts
+- Clinica Dental Viapark
+- Orihuela Costa location
+- Dr. Nasre
+- +34 641 328 992
+- info@viaparkdental.nl
+- Monday - Friday, 09:30 - 15:00
+- Multilingual communication
+
+Must-carry homepage messages
+- Modern dentistry with a personal approach
+- Healthy, pain-free, beautiful smile
+- Family dentistry
+- Same-day emergency support
+- Personalized and calm care
+
+Must-carry differentiators
+- Implantology
+- Reconstructive dentistry
+- Anxious patient care
+- Multilingual team
+- Modern techniques and comfort
+
+End of extraction

@@ -3,6 +3,7 @@ import './Emergency.scss';
 import SectionTitle from '../../components/SectionTitle/SectionTitle';
 import EmergencyImg from '../../assets/emergency.png';
 import { useTranslation } from 'react-i18next';
+import { FaPhoneAlt } from 'react-icons/fa';
 
 const Emergency = () => {
     const { t } = useTranslation();
@@ -10,14 +11,13 @@ const Emergency = () => {
     return (
         <section className='emergency-section' data-aos="fade-up" data-aos-duration="2000">
             <div className="container">
-                <div className="row align-items-center">
+                <div className="row align-items-center g-4">
                     <div className="col-lg-5 col-md-12 emergency-image-col">
                         <div className="emergency-image-wrapper">
                             <img src={EmergencyImg} alt="Emergency Dentistry" className="emergency-image" />
                         </div>
                     </div>
 
-                    {/* Textual content */}
                     <div className="col-lg-7 col-md-12">
                         <div className="emergency-content">
                             <SectionTitle
@@ -26,11 +26,10 @@ const Emergency = () => {
                                 description={t('emergency.description')}
                             />
 
-                            <div className="emergency-cta">
-                                <a href="tel:+34641328992" className="emergency-call-button">
-                                    {t('emergency.callButton')}: +34 641 328 992
-                                </a>
-                            </div>
+                            <a href="tel:+34641328992" className="emergency-phone-link" aria-label="Call emergency line +34 641 328 992">
+                                <FaPhoneAlt aria-hidden="true" />
+                                <span>+34 641 328 992</span>
+                            </a>
                         </div>
                     </div>
                 </div>

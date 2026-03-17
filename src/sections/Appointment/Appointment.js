@@ -2,6 +2,7 @@ import React from 'react';
 import './Appointment.scss';
 import SectionTitle from '../../components/SectionTitle/SectionTitle';
 import { AiFillHome } from 'react-icons/ai';
+import { FaClock } from 'react-icons/fa';
 import ContactButtons from '../../components/ContactButtons/ContactButtons';
 import { useTranslation } from 'react-i18next';
 
@@ -20,29 +21,32 @@ const Appointment = () => {
       data-aos-duration="2000"
     >
       <div className="container">
-        <div className="row align-items-center">
-          <div className="col-lg-5 col-md-6">
+        <div className="appointment-shell row align-items-center g-4">
+          <div className="col-lg-6 col-md-12">
             <div className="google-map">
               <iframe
                 title={t('appointment.mapTitle')}
                 src={mapLink}
                 allowFullScreen
               ></iframe>
-              <div className="location-name">
-                <AiFillHome />
-                <p dangerouslySetInnerHTML={{ __html: t('appointment.address') }}></p>
-              </div>
             </div>
           </div>
 
-          {/* Contact buttons instead of form */}
-          <div className="col-lg-7 col-md-6">
+          <div className="col-lg-6 col-md-12">
             <div className="appointment-contact-area">
               <SectionTitle
                 subTitle={t('appointment.subTitle')}
                 title={t('appointment.title')}
                 description={t('appointment.description')}
               />
+
+              <div className="appointment-meta-strip">
+                <div className="appointment-meta-item">
+                  <FaClock aria-hidden="true" />
+                  <span>{t('footer.openingHoursValue')}</span>
+                </div>
+              </div>
+
               <ContactButtons />
             </div>
           </div>

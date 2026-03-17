@@ -1,0 +1,221 @@
+@import '../sass/colors.scss';
+
+/* ── Hero ─────────────────────────────── */
+.service-detail-hero {
+  background: linear-gradient(135deg, #f7fbff 0%, #eef4f8 100%);
+  padding: 120px 0 60px;
+
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: $color-gray;
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 32px;
+    transition: color 0.2s;
+
+    &:hover {
+      color: $color-blue;
+    }
+  }
+
+  .hero-content {
+    max-width: 720px;
+
+    .hero-icon {
+      width: 80px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 18px;
+      background: rgba($color-blue, 0.1);
+      margin-bottom: 24px;
+
+      img {
+        width: 44px;
+        height: 44px;
+        object-fit: contain;
+      }
+    }
+
+    h1 {
+      font-size: 36px;
+      font-weight: 700;
+      color: $color-black;
+      margin-bottom: 16px;
+    }
+
+    .hero-lead {
+      font-size: 17px;
+      line-height: 1.7;
+      color: $color-gray;
+      max-width: 600px;
+    }
+  }
+}
+
+/* ── Main content ────────────────────── */
+.service-detail-content {
+  background: #fff;
+
+  .detail-block {
+    margin-bottom: 40px;
+
+    .section-title {
+      margin-bottom: 20px;
+    }
+  }
+
+  .block-heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: $color-black;
+    margin-bottom: 16px;
+  }
+
+  .detail-text {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #555;
+  }
+
+  /* Benefits list */
+  .benefits-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 10px 0;
+      font-size: 15px;
+      color: #444;
+      line-height: 1.6;
+
+      .check-icon {
+        color: $color-blue;
+        font-size: 16px;
+        margin-top: 4px;
+        flex-shrink: 0;
+      }
+    }
+  }
+
+  /* Regulations block */
+  .regulations-block {
+    background: #f8f9fc;
+    border-left: 4px solid $color-blue;
+    border-radius: 0 8px 8px 0;
+    padding: 24px;
+  }
+
+  /* ── Sidebar ────────────────────────── */
+  .sidebar-card {
+    background: #f9fbfc;
+    border-radius: 12px;
+    padding: 28px;
+    margin-bottom: 24px;
+
+    h4 {
+      font-size: 17px;
+      font-weight: 600;
+      color: $color-black;
+      margin-bottom: 12px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 1.7;
+      color: $color-gray;
+      margin-bottom: 20px;
+    }
+
+    .cta-phone {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: $color-blue;
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.2s;
+
+      &:hover {
+        background: darken($color-blue, 8%);
+      }
+    }
+
+    &.other-services ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        border-bottom: 1px solid #eee;
+
+        &:last-child {
+          border-bottom: none;
+        }
+
+        a {
+          display: block;
+          padding: 10px 0;
+          font-size: 14px;
+          color: #444;
+          text-decoration: none;
+          transition: color 0.2s;
+
+          &:hover {
+            color: $color-blue;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* ── Responsive ──────────────────────── */
+@media (max-width: 991px) {
+  .service-detail-hero {
+    padding: 100px 0 40px;
+
+    .hero-content h1 {
+      font-size: 28px;
+    }
+  }
+
+  .service-detail-content {
+    .sidebar-card {
+      margin-top: 20px;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .service-detail-hero {
+    padding: 90px 0 32px;
+
+    .hero-content {
+      .hero-icon {
+        width: 64px;
+        height: 64px;
+
+        img {
+          width: 36px;
+          height: 36px;
+        }
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+    }
+  }
+}

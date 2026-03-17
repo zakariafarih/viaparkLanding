@@ -33,7 +33,6 @@ const ContactButtons = () => {
 
   return (
     <div className="contact-buttons-container">
-      
       <div className="contact-buttons">
         {contactMethods.map((method, index) => (
           <a 
@@ -50,21 +49,6 @@ const ContactButtons = () => {
             </span>
           </a>
         ))}
-      </div>
-
-      <div className="emergency-call">
-        <div className="emergency-icon">
-          <FaPhone />
-        </div>
-        <div className="emergency-text">
-          <p>{t('appointment.emergency.label')}</p>
-          <a href="tel:+34641328992">{t('banner.phone')}</a>
-        </div>
-      </div>
-      
-      <div className="hours-info">
-        <h4>{t('footer.openingHours')}</h4>
-        <p>{t('footer.openingHoursValue')}</p>
       </div>
     </div>
   );

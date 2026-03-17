@@ -7,8 +7,9 @@
     "cta": "Reservar cita"
   },
   "banner": {
-    "headline": "Odontología moderna con un enfoque personal",
-    "lead": "Cada paciente merece una sonrisa sana, sin dolor y hermosa. Mi objetivo es lograrlo de manera tranquila, clara y centrada en el ser humano.",
+    "headline": "Atención Dental de Élite en Tu Idioma",
+    "lead": "Equipo que habla español, inglés, neerlandés y alemán. Implantes sin dolor, odontología estética y urgencias 24H en Orihuela Costa.",
+    "languageBadge": "Hablamos ES · EN · NL · DE",
     "cta": "Reservar una cita",
     "emergency": "Emergencia Dental 24H",
     "phone": "+34 641 328 992",
@@ -100,7 +101,7 @@
   "appointment": {
     "subTitle": "RESERVAR CITA",
     "title": "Programe su visita en Clínica Dental Viapark",
-    "description": "Estamos abiertos de lunes a viernes: 09:30 - 15:00. Complete el formulario a continuación y confirmaremos su cita en breve.",
+    "description": "Abiertos de lunes a viernes de 09:30 a 15:00. Contáctenos por teléfono, WhatsApp o correo electrónico y organizaremos su visita rápidamente.",
     "mapTitle": "Ubicación de la Clínica",
     "address": "C. Lagunas de Ruidera, 127, Loc. 6 Pb<br>Centro Comercial Viapark V<br>03189 Orihuela Costa (Alicante)",
     "form": {
@@ -190,6 +191,128 @@
         "label": "Horario de Apertura",
         "value": "Lunes — Viernes: 09:30 — 15:00\nCerrado los fines de semana"
       }
+    }
+  },
+  "serviceDetail": {
+    "backToServices": "Volver a todos los servicios",
+    "overviewLabel": "DESCRIPCIÓN",
+    "benefitsLabel": "Beneficios Principales",
+    "processLabel": "Qué Esperar",
+    "regulationsLabel": "Normativa y Regulación",
+    "ctaTitle": "Reservar una Consulta",
+    "ctaText": "¿Listo para dar el siguiente paso? Llámenos directamente para programar su cita.",
+    "otherServicesLabel": "Otros Servicios",
+    "general": {
+      "heading": "Atención Dental Preventiva y Restauradora Completa",
+      "overview": "La odontología general es la base de la salud bucodental. En Clínica Dental Viapark realizamos exámenes exhaustivos, limpiezas profesionales (eliminación de sarro y placa), empastes de composite, endodoncias y tratamiento periodontal. Las visitas regulares cada 6 a 12 meses — tal como recomienda el Consejo General de Dentistas de España — permiten detectar problemas a tiempo, desde caries y enfermedad de las encías hasta lesiones orales. Nuestro enfoque prioriza la prevención, utilizando radiografía digital para diagnósticos precisos con la mínima exposición a radiación.",
+      "benefits": [
+        "Examen oral completo con radiografía digital",
+        "Limpieza dental profesional (profilaxis) para eliminar sarro y placa",
+        "Empastes de composite del color del diente que preservan la estructura natural",
+        "Detección temprana de caries, enfermedad periodontal y patologías orales",
+        "Plan personalizado de higiene oral adaptado a sus necesidades",
+        "Evaluación periodontal y tratamiento de afecciones de las encías"
+      ],
+      "process": "Su primera visita comienza con un examen oral completo, incluyendo radiografías digitales cuando sea necesario. El Dr. Nasre evaluará sus dientes, encías y salud oral general, y luego comentará los hallazgos y un plan de tratamiento con usted. La limpieza profesional se realiza normalmente en la misma sesión. Las citas de seguimiento se programan según sus necesidades individuales, generalmente cada 6 a 12 meses.",
+      "regulations": "Todos los profesionales dentales de nuestra clínica están colegiados en el Colegio Oficial de Odontólogos y Estomatólogos, conforme a la Ley 10/1986. Nuestros protocolos de esterilización e higiene cumplen con la normativa sanitaria nacional. La atención dental básica, incluyendo extracciones y tratamiento de urgencias, está incluida en la cartera de servicios del Sistema Nacional de Salud definida por el Real Decreto 1030/2006, aunque nosotros ofrecemos un abanico mucho más amplio de servicios."
+    },
+    "pediatric": {
+      "heading": "Cuidado Dental Amable y Experto para Niños y Adolescentes",
+      "overview": "La salud oral infantil marca su bienestar para toda la vida. Nuestro servicio de odontología pediátrica está diseñado para los pacientes más jóvenes — desde su primera visita dental (recomendada al cumplir un año, según la Sociedad Española de Odontopediatría) hasta la adolescencia. Creamos un ambiente amigable y sin estrés con explicaciones adaptadas al nivel del niño. Los tratamientos incluyen barniz de flúor, selladores de fisuras para proteger los molares permanentes, tratamiento temprano de caries y asesoramiento sobre hábitos. También enseñamos técnicas de cepillado e hilo dental para establecer una buena higiene oral desde temprana edad.",
+      "benefits": [
+        "Orientación para la primera visita dental — recomendada al cumplir un año",
+        "Aplicaciones de barniz de flúor para fortalecer el esmalte en desarrollo",
+        "Selladores de fisuras en molares permanentes para prevenir caries",
+        "Tratamiento de caries adaptado a la edad con técnicas suaves",
+        "Educación sobre cepillado e hilo dental para niños y padres",
+        "Control del desarrollo dental y detección ortodóncica temprana"
+      ],
+      "process": "Cada visita comienza haciendo que el niño se sienta cómodo con una presentación amigable de nuestro equipo e instrumental. El dentista realiza un examen cuidadoso, a menudo usando el enfoque «explicar-mostrar-hacer» para describir cada paso. Los tratamientos preventivos como flúor o selladores se aplican sin dolor. Los padres reciben orientación sobre el cuidado en casa, la alimentación y cuándo programar la siguiente revisión.",
+      "regulations": "En la Comunidad Valenciana, los niños de 6 a 15 años tienen derecho a atención dental básica a través del programa PADI (Programa de Atención Dental Infantil), establecido por el Decreto 97/2010 del Consell. Este cubre exámenes, tratamientos de flúor, selladores de fisuras en dientes permanentes, empastes y extracciones cuando sean necesarias. Nuestra clínica está equipada para proporcionar esta atención y mucho más, incluyendo tratamientos fuera del alcance del programa público."
+    },
+    "implant": {
+      "heading": "Reemplazo Dental Permanente y de Aspecto Natural",
+      "overview": "Los implantes dentales son el estándar de referencia para reemplazar dientes ausentes. Se coloca un poste de titanio quirúrgicamente en el hueso maxilar, donde se integra durante varias semanas (osteointegración) para formar una base estable para una corona, puente o prótesis. El Dr. Nasre cuenta con amplia experiencia en implantología, utilizando sistemas de implantes consolidados que llevan el marcado CE y cumplen con el Reglamento Europeo de Productos Sanitarios (EU MDR 2017/745). Los implantes se ven, se sienten y funcionan como dientes naturales, con tasas de éxito documentadas del 95–98% a diez años con el mantenimiento adecuado.",
+      "benefits": [
+        "Solución permanente — los implantes pueden durar toda la vida con el cuidado adecuado",
+        "Aspecto y función natural idéntica a los dientes reales",
+        "Preserva el hueso maxilar y previene la pérdida ósea tras la extracción",
+        "Sin daño a dientes sanos adyacentes (a diferencia de los puentes tradicionales)",
+        "Alta tasa de éxito a largo plazo: 95–98% documentado a 10 años",
+        "Opciones para un diente, varios dientes o rehabilitación completa de arcada"
+      ],
+      "process": "El tratamiento comienza con una evaluación detallada incluyendo imagen 3D para valorar el volumen óseo y planificar la colocación del implante con precisión. El implante de titanio se coloca bajo anestesia local en un procedimiento quirúrgico breve. Un periodo de cicatrización de 8 a 16 semanas permite la integración del implante con el hueso. Una vez estable, se fija una corona a medida de porcelana o circonio. Durante todo el proceso, recibirá información clara sobre cada etapa e instrucciones de cuidado posterior.",
+      "regulations": "Todos los componentes de implantes utilizados en nuestra clínica llevan el marcado CE y cumplen con el Reglamento UE de Productos Sanitarios 2017/745. La cirugía de implantes en España debe ser realizada por un dentista u cirujano oral colegiado en el Colegio Oficial de Odontólogos. Nuestros protocolos quirúrgicos siguen las normas de control de infecciones establecidas por la legislación sanitaria española, incluyendo esterilización adecuada, material desechable de un solo uso y trazabilidad de todos los dispositivos implantados."
+    },
+    "aesthetic": {
+      "heading": "Tratamientos Estéticos para una Sonrisa con Confianza",
+      "overview": "La odontología estética se centra en mejorar la apariencia de su sonrisa manteniendo la salud dental. Ofrecemos blanqueamiento profesional en clínica, carillas de porcelana y composite, bonding estético, contorneado de encías y diseño de sonrisa. Cada tratamiento se planifica considerando sus rasgos faciales y expectativas. Nuestros protocolos de blanqueamiento utilizan productos conformes con la Directiva 2011/84/UE del Consejo, que limita la concentración de peróxido de hidrógeno a un máximo del 6% — un límite que solo los profesionales dentales colegiados están autorizados a aplicar, garantizando seguridad y eficacia.",
+      "benefits": [
+        "Blanqueamiento dental profesional con productos clínicamente testados",
+        "Carillas de porcelana para una transformación duradera y natural",
+        "Bonding de composite para reparar astillas, espacios o decoloración",
+        "Contorneado de encías para una sonrisa equilibrada y simétrica",
+        "Diseño de sonrisa personalizado considerando la estética facial",
+        "Resultados visibles inmediatos con resultados duraderos"
+      ],
+      "process": "El tratamiento comienza con un análisis de sonrisa, donde evaluamos el color, forma, alineación de sus dientes y la línea de encía. Para el blanqueamiento, aplicamos un gel profesional bajo condiciones controladas para resultados óptimos en una sola sesión. Las carillas requieren dos visitas: la primera para preparación e impresiones, la segunda para cementar las láminas de porcelana a medida. El bonding de composite puede completarse en una sola cita.",
+      "regulations": "El blanqueamiento dental en la UE está regulado por la Directiva 2011/84/UE del Consejo. Los productos que contienen entre 0,1% y 6% de peróxido de hidrógeno (o equivalente) solo pueden ser dispensados y aplicados por un profesional dental cualificado. Los productos de venta libre por encima del 0,1% están prohibidos para venta directa al consumidor. Todos los materiales estéticos que utilizamos llevan el marcado CE y cumplen con los estándares de seguridad de la UE en biocompatibilidad."
+    },
+    "reconstructive": {
+      "heading": "Rehabilitación Funcional y Estética de Daños Dentales Complejos",
+      "overview": "La odontología reconstructiva restaura dientes severamente desgastados, dañados o ausentes por trauma, caries, bruxismo o envejecimiento. Los tratamientos van desde coronas y puentes individuales hasta rehabilitaciones completas de boca combinando implantes, prótesis y técnicas estéticas. El Dr. Nasre elabora un plan de tratamiento integral para restaurar tanto la función (masticación, habla) como la apariencia. Utilizamos restauraciones de cerámica, circonio y metal-cerámica de alta calidad — todas con marcado CE y fabricadas por laboratorios dentales certificados.",
+      "benefits": [
+        "Restauración completa de la función masticatoria y el equilibrio de la mordida",
+        "Rehabilitación estética incluso en casos complejos de múltiples dientes",
+        "Coronas de cerámica y circonio de alta calidad con aspecto natural",
+        "Soluciones combinadas implante-prótesis para pérdida dental extensa",
+        "Tratamiento del desgaste por bruxismo con enfoques protectores",
+        "Mejora del habla y confort con una dentición correctamente restaurada"
+      ],
+      "process": "Comenzamos con una evaluación exhaustiva incluyendo radiografías y, cuando sea necesario, modelos de estudio y fotografías. Se presenta un plan de tratamiento por fases, cubriendo cualquier trabajo preparatorio necesario (como colocación de implantes o tratamiento de encías), seguido de la fase restauradora. Las restauraciones provisionales protegen sus dientes durante la fabricación de las prótesis definitivas. Cada corona, puente o carilla se prueba, ajusta y cementa definitivamente una vez apruebe el ajuste y la estética.",
+      "regulations": "Todas las restauraciones protésicas son fabricadas por laboratorios dentales que cumplen con el Reglamento UE de Productos Sanitarios 2017/745 y deben contar con una declaración de conformidad. Los materiales utilizados — incluyendo cerámicas, circonio y aleaciones — cumplen con los estándares de biocompatibilidad según EN ISO 10993. La Ley 10/1986 de España garantiza que todos los procedimientos reconstructivos sean realizados por profesionales dentales cualificados y colegiados."
+    },
+    "orthodontics": {
+      "heading": "Dientes Más Rectos con Brackets o Alineadores Transparentes",
+      "overview": "El tratamiento de ortodoncia corrige dientes desalineados y mordidas incorrectas, mejorando tanto la estética como la función oral. Ofrecemos brackets metálicos tradicionales, brackets cerámicos (del color del diente) y alineadores transparentes Invisalign como opción prácticamente invisible. El tratamiento está disponible para niños, adolescentes y adultos — nunca es tarde para lograr una sonrisa más recta. El Dr. Nasre diseña cada plan de tratamiento utilizando imagen digital y, para los casos de Invisalign, simulación 3D del tratamiento para que pueda previsualizar sus resultados antes de empezar.",
+      "benefits": [
+        "Corrige dientes apiñados, con espacios o desalineados",
+        "Mejora la función de mordida y reduce la tensión mandibular",
+        "Alineadores transparentes Invisalign para tratamiento discreto",
+        "Planificación digital del tratamiento con previsualización 3D de la sonrisa",
+        "Opciones para todas las edades — niños, adolescentes y adultos",
+        "Mejor higiene oral a largo plazo con dientes correctamente alineados"
+      ],
+      "process": "En la consulta inicial, evaluamos la alineación de sus dientes, mordida y relación mandibular con escaneos digitales y fotografías. Un plan de tratamiento personalizado detalla el tiempo estimado (normalmente de 12 a 24 meses para casos completos). Para brackets, se adhieren a los dientes y se ajustan en intervalos regulares. Para Invisalign, recibe una serie de alineadores transparentes a medida, que se cambian cada 1 a 2 semanas. El progreso se controla en revisiones cada 4 a 8 semanas.",
+      "regulations": "El tratamiento de ortodoncia en España debe ser realizado por un dentista con la formación apropiada. Los alineadores Invisalign y otros aparatos ortodóncicos se clasifican como productos sanitarios a medida según el EU MDR 2017/745 y requieren una declaración de fabricación. Todos los materiales utilizados llevan marcado CE y son biocompatibles. El tratamiento de ortodoncia no está cubierto por el Sistema Nacional de Salud (SNS) para adultos; la cobertura para niños varía según la comunidad autónoma."
+    },
+    "surgical": {
+      "heading": "Procedimientos de Cirugía Oral Seguros y Profesionales",
+      "overview": "Nuestros servicios de cirugía oral cubren los procedimientos quirúrgicos dentales más habituales: extracción de muelas del juicio (incluyendo terceros molares impactados), extracciones quirúrgicas, apicectomía (cirugía de la punta de la raíz), eliminación de quistes dentales y procedimientos menores de mandíbula. Todas las cirugías se realizan bajo anestesia local, con sedación consciente disponible para pacientes con ansiedad. El Dr. Nasre aplica técnicas mínimamente invasivas para reducir las molestias postoperatorias y acelerar la cicatrización.",
+      "benefits": [
+        "Extracción experta de muelas del juicio impactadas o complicadas",
+        "Apicectomía para salvar dientes con infecciones persistentes en la raíz",
+        "Eliminación de quistes dentales y lesiones orales benignas",
+        "Técnicas mínimamente invasivas para una recuperación más rápida",
+        "Anestesia local con opciones de sedación para comodidad del paciente",
+        "Instrucciones claras de cuidado postoperatorio y seguimiento"
+      ],
+      "process": "Antes de cualquier procedimiento quirúrgico, realizamos una evaluación exhaustiva con imagen panorámica o 3D para planificar el abordaje. El procedimiento se explica en detalle para que sepa qué esperar. El día de la cirugía, la anestesia local asegura que esté completamente cómodo. La mayoría de procedimientos duran de 30 a 60 minutos. Recibirá instrucciones escritas de cuidado posterior cubriendo manejo del dolor, dieta e higiene. Se programa una cita de seguimiento para controlar la cicatrización.",
+      "regulations": "Los procedimientos de cirugía oral en España deben ser realizados por dentistas u estomatólogos colegiados en el Colegio Oficial. Nuestra clínica sigue estrictos protocolos de esterilización conforme a la normativa sanitaria española y las normas europeas de control de infecciones. Para procedimientos que requieran sedación, cumplimos con las directrices de la Sociedad Española de Cirugía Bucal (SECIB). Los casos quirúrgicos de urgencia están parcialmente cubiertos en la cartera básica de servicios del Sistema Nacional de Salud (Real Decreto 1030/2006)."
+    },
+    "emergency": {
+      "heading": "Ayuda Inmediata Cuando Más la Necesita",
+      "overview": "Las emergencias dentales — dolor de muelas intenso, traumatismos bucales, un diente avulsionado, una restauración rota, o hinchazón e infección — requieren atención profesional inmediata. En Clínica Dental Viapark, priorizamos las citas de emergencia el mismo día para diagnosticar el problema, aliviar el dolor, controlar la infección e iniciar el tratamiento definitivo. Si un diente ha sido avulsionado, el tiempo es crítico: la reimplantación dentro de los 30 a 60 minutos mejora significativamente las posibilidades de salvarlo. Llámenos inmediatamente al +34 641 328 992.",
+      "benefits": [
+        "Citas de emergencia el mismo día — nuestro objetivo es atenderle en pocas horas",
+        "Alivio rápido del dolor y control de infecciones",
+        "Tratamiento de dientes avulsionados, fisurados o fracturados",
+        "Reparación de emergencia de coronas, puentes y prótesis",
+        "Orientación telefónica fuera de horario para situaciones urgentes",
+        "Transición fluida al tratamiento restaurador de seguimiento"
+      ],
+      "process": "Llámenos inmediatamente cuando ocurra una emergencia dental. Programamos una cita urgente lo antes posible, a menudo el mismo día. A su llegada, realizamos un examen centrado y las imágenes necesarias para diagnosticar el problema. El tratamiento inmediato se enfoca en el alivio del dolor y la estabilización — esto puede incluir drenaje de un absceso, ferulización de un diente flojo, empaste provisional o extracción de emergencia. Luego se organiza un plan de seguimiento para el tratamiento definitivo.",
+      "regulations": "La atención dental de urgencia (incluyendo extracciones y tratamiento de infecciones agudas) está incluida en la cartera básica de servicios sanitarios de España según el Real Decreto 1030/2006. Todos los ciudadanos y residentes con cobertura sanitaria pública tienen derecho a tratamiento dental de urgencia a través del Sistema Nacional de Salud. En nuestra clínica privada, ofrecemos acceso inmediato sin listas de espera, atendiendo tanto a pacientes asegurados como privados."
     }
   }
 }

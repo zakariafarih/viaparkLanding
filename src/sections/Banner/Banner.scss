@@ -1,324 +1,522 @@
 @import '../../sass/colors.scss';
 
+// Deep navy: trust-building primary action colour (distinctly different from the purple $color-blue)
+$banner-navy: #1B3A6B;
+$banner-gold: #C7A15A;
+
+// ─────────────────────────────────────────────────────────────────────────────
+// The navbar JS sets body.paddingTop = navbarHeight - 50.
+// Adding margin-top: 50px here always places the section at exactly navbarHeight
+// from the viewport top, regardless of how tall the navbar actually is.
+// ─────────────────────────────────────────────────────────────────────────────
+
+// ── Section shell ─────────────────────────────────────────────────────────────
 .banner-section {
-    height: 800px;
-    margin-top: 100px;
+    margin-top: 50px;
+    width: 100%;
+    overflow: hidden;
+    background:
+        radial-gradient(circle at 10% 20%, rgba(199, 161, 90, 0.12), transparent 28%),
+        radial-gradient(circle at 86% 22%, rgba(27, 58, 107, 0.12), transparent 26%),
+        linear-gradient(180deg, #f7fbff 0%, #edf3f9 100%);
+}
+
+.banner-stage {
+    position: relative;
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 10px 16px 18px;
+
+    &::before,
+    &::after {
+        content: '';
+        position: absolute;
+        border-radius: 50%;
+        filter: blur(24px);
+        pointer-events: none;
+    }
+
+    &::before {
+        width: 220px;
+        height: 220px;
+        top: 8%;
+        left: 2%;
+        background: rgba($banner-gold, 0.14);
+    }
+
+    &::after {
+        width: 280px;
+        height: 280px;
+        right: 4%;
+        bottom: 8%;
+        background: rgba($banner-navy, 0.1);
+    }
+}
+
+.banner-split {
+    display: grid;
+    grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+    align-items: stretch;
+    min-height: clamp(560px, 72vh, 660px);
+    gap: 16px;
+}
+
+.banner-left {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+    .banner-copy-card {
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        max-width: 760px;
+        margin-left: 0;
+        padding: 40px 38px 28px;
+        border-radius: 28px;
+        background: rgba(255, 255, 255, 0.72);
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        box-shadow: 0 24px 64px rgba(24, 25, 69, 0.1);
+        backdrop-filter: blur(18px);
+        min-width: 0;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        left: 8px;
+        top: 12%;
+        bottom: 8%;
+        width: 120px;
+        border-radius: 999px;
+        background: linear-gradient(180deg, rgba($banner-gold, 0.16), rgba(255, 255, 255, 0));
+        filter: blur(12px);
+        z-index: 0;
+    }
+
+    .banner-topline {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 18px;
+    }
+
+    .banner-kicker {
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.14em;
+        color: $banner-navy;
+        margin-bottom: 0;
+    }
+
+    .banner-lang-badge {
+        display: inline-flex;
+        align-items: center;
+        padding: 7px 14px;
+        border-radius: 999px;
+        background: rgba($banner-gold, 0.1);
+        border: 1px solid rgba($banner-gold, 0.22);
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.07em;
+        color: $banner-navy;
+    }
+
+    h1 {
+        font-size: clamp(34px, 3.8vw, 58px);
+        font-weight: 800;
+        line-height: 1.02;
+        color: $color-black;
+        margin-bottom: 18px;
+        max-width: 14ch;
+        letter-spacing: -0.04em;
+        text-wrap: balance;
+        overflow-wrap: anywhere;
+    }
+
+    .banner-lead {
+        font-size: 16px;
+        line-height: 1.7;
+        color: rgba($color-black, 0.78);
+        max-width: 50ch;
+        margin-bottom: 24px;
+    }
+}
+
+.banner-actions {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    gap: 14px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.banner-btn-primary,
+.banner-btn-whatsapp,
+.banner-btn-call {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 58px;
+    border-radius: 16px;
+    text-decoration: none !important;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease, background 0.25s ease;
+}
+
+.banner-btn-primary {
+    padding: 17px 34px;
+    background: linear-gradient(135deg, $banner-navy 0%, darken($banner-navy, 8%) 100%);
+    color: $color-white !important;
+    box-shadow: 0 16px 40px rgba($banner-navy, 0.28);
+
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 20px 44px rgba($banner-navy, 0.36);
+    }
+}
+
+.banner-btn-whatsapp {
+    gap: 9px;
+    min-height: 58px;
+    padding: 16px 24px;
+    background: rgba(255, 255, 255, 0.84);
+    color: $color-black !important;
+    border: 1px solid rgba($color-black, 0.08);
+    border-radius: 16px;
+    text-decoration: none !important;
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: 0 12px 30px rgba(24, 25, 69, 0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+
+    svg {
+        width: 18px;
+        height: 18px;
+        color: #25D366;
+    }
+
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 18px 36px rgba(24, 25, 69, 0.12);
+        border-color: rgba($banner-gold, 0.3);
+    }
+}
+
+.banner-btn-call {
+    gap: 9px;
+    padding: 16px 22px;
+    background: rgba($banner-navy, 0.06);
+    color: $banner-navy !important;
+    border: 1px solid rgba($banner-navy, 0.16);
+    box-shadow: none;
+
+    svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    &:hover {
+        transform: translateY(-2px);
+        background: rgba($banner-navy, 0.1);
+        border-color: rgba($banner-navy, 0.28);
+        box-shadow: 0 14px 30px rgba($banner-navy, 0.12);
+    }
+}
+
+.banner-meta-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    min-width: 0;
+}
+
+.banner-meta-card {
+    min-width: 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    min-height: 90px;
+    padding: 16px 16px 14px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.76);
+    border: 1px solid rgba(24, 25, 69, 0.08);
+    box-shadow: 0 12px 28px rgba(24, 25, 69, 0.07);
+
+    span,
+    strong {
+        display: block;
+    }
+
+    span {
+        margin-bottom: 6px;
+        font-size: 11px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: rgba($color-black, 0.5);
+        font-weight: 700;
+    }
+
+    strong {
+        font-size: 16px;
+        line-height: 1.4;
+        color: $color-black;
+        overflow-wrap: anywhere;
+    }
+}
+
+.banner-meta-card-primary {
+    text-decoration: none;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 20px 44px rgba(24, 25, 69, 0.12);
+        border-color: rgba($banner-navy, 0.18);
+    }
+}
+
+.banner-meta-icon {
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 14px;
+    background: linear-gradient(135deg, rgba($banner-navy, 0.1), rgba($banner-gold, 0.14));
+
+    svg {
+        width: 18px;
+        height: 18px;
+        color: $banner-navy;
+    }
+}
+
+.banner-right {
+    min-width: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.banner-visual-frame {
+    position: relative;
+    width: 100%;
+    min-height: clamp(560px, 72vh, 660px);
+    min-width: 0;
+}
+
+.banner-image-panel {
     position: relative;
     z-index: 1;
+    height: 100%;
+    min-height: clamp(560px, 72vh, 660px);
+    overflow: hidden;
+    border-radius: 30px;
+    background: #dbe7f4;
+    border: 1px solid rgba(255, 255, 255, 0.86);
+    box-shadow: 0 26px 70px rgba(24, 25, 69, 0.18);
 
-    .banner-pattern {
+    img {
         position: absolute;
-        top: 10%;
-        right: 0;
-        left: 0;
+        inset: 0;
         width: 100%;
-        z-index: -1;
-    }
-}
-
-.banner-text {
-    h1 {
-        font-size: 64px;
-        font-weight: 700;
-        margin-bottom: 40px;
-    }
-    .banner-bottom {
-        margin-top: 60px;
-        display: flex;
-
-        .theme-btn {
-            margin-right: 50px;
-
-            a {
-                padding: 20px 25px;
-            }
-        }
-
-        .banner-call {
-            display: flex;
-            align-items: center;
-
-            .icon {
-                width: 35px;
-                height: 35px;
-                margin-right: 30px;
-                background: $color-white;
-                line-height: 35px;
-                text-align: center;
-                border-radius: 12px;
-                position: relative;
-                z-index: 1;
-
-                &:before {
-                    content: "";
-                    position: absolute;
-                    top: -35%;
-                    left: -35%;
-                    width: 60px;
-                    height: 60px;
-                    background: #ffffff;
-                    z-index: -1;
-                    opacity: 0.2;
-                    border-radius: 17px;
-                }
-            }
-            
-            .call-text {
-
-                p {
-                    font-size: 14px;
-                    text-transform: uppercase;
-                    color: $color-blue;
-                    font-weight: 700;
-                    margin-bottom: 5px;
-                }
-
-                h6 {
-                    font-size: 18px;
-                    text-transform: uppercase;
-                    font-weight: 700;
-                }
-            }
-        }
-    }
-}
-
-.banner-img-area {
-    position: relative;
-    text-align: center;
-
-    .banner-img {
-        margin-bottom: -150px;
+        height: 100%;
+        object-fit: cover;
+        object-position: center 40%;
+        display: block;
+        transform: scale(1.02);
     }
 
-    .info-box {
+    &::after {
+        content: '';
         position: absolute;
-        bottom: 5%;
-        left: 0%;
-        background: $color-white;
-        border-radius: 15px;
-        padding: 10px;
-        display: flex;
-        align-items: center;
-
-        .info-img {
-            margin-right: 10px;
-        }
-
-        .info-text {
-            text-align: left;
-            
-            p {
-                margin-bottom: 0;
-                color: $color-black;
-                font-size: 16px;
-                font-weight: 600;
-
-                small {
-                    color: $color-gray;
-                }
-            }
-        }
+        inset: 0;
+        background:
+            linear-gradient(180deg, rgba(7, 17, 42, 0.06) 0%, rgba(7, 17, 42, 0.24) 100%),
+            linear-gradient(90deg, rgba(7, 17, 42, 0.2) 0%, rgba(7, 17, 42, 0) 28%);
+        pointer-events: none;
     }
-
-    .shapes {
-        img {
-            position: absolute;
-
-            &:nth-child(1) {
-                left: 0;
-                top: 0;
-            }
-            &:nth-child(2) {
-                right: 0;
-                top: 0;
-            }
-            &:nth-child(3) {
-                right: 0;
-                top: 40%;
-            }
-            &:nth-child(4) {
-                left: 10%;
-                top: 30%;
-                z-index: -1;
-            }
-        }
-
-    }
-
 }
 
+.banner-visual-card {
+    text-decoration: none;
+    position: absolute;
+    z-index: 2;
+    max-width: 300px;
+    padding: 14px 16px;
+    border-radius: 20px;
+    background: rgba(13, 22, 47, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    box-shadow: 0 20px 40px rgba(12, 18, 36, 0.26);
+    backdrop-filter: blur(14px);
+    color: $color-white;
 
-// Mobile Responsive
+    span,
+    strong {
+        display: block;
+    }
+
+    span {
+        margin-bottom: 6px;
+        font-size: 11px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.72);
+        font-weight: 700;
+    }
+
+    strong {
+        font-size: 16px;
+        line-height: 1.35;
+        font-weight: 700;
+    }
+}
+
+.banner-visual-card-bottom {
+    left: 20px;
+    bottom: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .banner-stage {
+        padding: 8px 12px 16px;
+    }
+
+    .banner-split {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        gap: 14px;
+        min-height: clamp(520px, 66vh, 620px);
+    }
+
+    .banner-left {
+        .banner-copy-card {
+            padding: 30px 24px 22px;
+        }
+
+        h1 {
+            font-size: clamp(30px, 4vw, 46px);
+        }
+    }
+
+    .banner-visual-frame,
+    .banner-image-panel {
+        min-height: 520px;
+    }
+
+    .banner-actions {
+        grid-template-columns: repeat(2, max-content);
+    }
+
+    .banner-btn-call {
+        grid-column: 1 / -1;
+        justify-self: start;
+    }
+}
+
+@media (max-width: 767px) {
+    .banner-stage {
+        padding: 8px 10px 14px;
+    }
+
+    .banner-split {
+        grid-template-columns: 1fr;
+        min-height: auto;
+        gap: 12px;
+    }
+
+    .banner-right {
+        order: -1;
+        padding: 0;
+    }
+
+    .banner-left {
+        .banner-copy-card {
+            margin-left: 0;
+            padding: 26px 18px 18px;
+            border-radius: 22px;
+        }
+
+        &::after {
+            display: none;
+        }
+    }
+
+    .banner-visual-frame,
+    .banner-image-panel {
+        min-height: 320px;
+    }
+
+    .banner-meta-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .banner-visual-card {
+        max-width: calc(100% - 28px);
+        padding: 12px 14px;
+    }
+
+    .banner-visual-card-bottom {
+        left: 14px;
+        bottom: 14px;
+    }
+
+    .banner-actions {
+        grid-template-columns: 1fr;
+    }
+}
+
 @media (max-width: 575px) {
-
-    // Banner CSS
     .banner-section {
-        height: 100%;
-        margin-top: 70px
+        margin-top: 10px;
     }
-    .banner-img-area {
-        .banner-img {
-            margin-bottom: 0;
+
+    .banner-left {
+        .banner-copy-card {
+            padding: 24px 16px 16px;
         }
 
-        .shapes {
-            img {
-                &:nth-child(1) {
-                    max-width: 70px ;
-                }
-            }
-        }
-        
-    }
-    .banner-text {
-        text-align: center;
-        padding-top: 30px;
-        
         h1 {
             font-size: 30px;
-            margin-bottom: 15px;
+            line-height: 1.04;
         }
 
-        .banner-bottom {
-            margin-top: 40px;
-            margin-bottom: 30px;
-            display: block;
-    
-            .theme-btn {
-                margin-right: 0px;
-                margin-bottom: 20px;
-                
-                a {
-                    padding: 15px 20px;
-                }
-            }
-    
-            .banner-call {
-                justify-content: center;
-
-                .call-text {
-                    text-align: left;
-                    p {
-                        font-size: 12px;
-                    }
-    
-                    h6 {
-                        font-size: 16px;
-                    }
-                }
-            }
+        .banner-lead {
+            font-size: 15px;
         }
     }
-}
 
+    .banner-actions {
+        flex-direction: column;
+        align-items: stretch;
 
-@media (min-width: 576px) and (max-width: 767px) {
-    // Banner CSS
-    .banner-section {
-        height: 100%;
-        margin-top: 70px
-    }
-    .banner-img-area {
-        .banner-img {
-            margin-bottom: 0;
-        }
-
-        .shapes {
-            img {
-                &:nth-child(1) {
-                    max-width: 70px ;
-                }
-            }
-        }
-        
-    }
-    .banner-text {
-        text-align: center;
-        padding-top: 30px;
-        
-        h1 {
-            font-size: 30px;
-            margin-bottom: 15px;
-        }
-
-        .banner-bottom {
-            margin-top: 40px;
-            margin-bottom: 30px;
-            display: block;
-    
-            .theme-btn {
-                margin-right: 0px;
-                margin-bottom: 20px;
-                
-                a {
-                    padding: 15px 20px;
-                }
-            }
-    
-            .banner-call {
-                justify-content: center;
-
-                .call-text {
-                    text-align: left;
-                    p {
-                        font-size: 12px;
-                    }
-    
-                    h6 {
-                        font-size: 16px;
-                    }
-                }
-            }
-        }
-    }
-}
-
-// Medium Devices Responsive
-@media (min-width: 768px) and (max-width: 991px) {
-    // Banner CSS
-    .banner-section {
-        height: 100%;
-        margin-top: 70px
-    }
-    .banner-img-area {
-        .banner-img {
-            margin-bottom: 0;
-        }
-
-        .shapes {
-            img {
-                &:nth-child(1) {
-                    max-width: 70px ;
-                }
-            }
-        }
-        
-    }
-    .banner-text {
-        text-align: center;
-        padding-top: 30px;
-        
-        h1 {
-            font-size: 40px;
-            margin-bottom: 15px;
-        }
-
-        .banner-bottom {
+        .banner-btn-primary,
+        .banner-btn-whatsapp {
             justify-content: center;
         }
     }
-}
 
-@media (min-width: 992px) and (max-width: 1199px) {
-    .banner-text  {
-        h1 {
-            font-size: 45px;
-            margin-bottom: 25px;
-        } 
+    .banner-visual-frame,
+    .banner-image-panel {
+        min-height: 280px;
+    }
 
-        .banner-bottom {
-            margin-top: 40px;
-        }
-    }  
+    .banner-meta-card {
+        min-height: 82px;
+        padding: 14px;
+    }
+
+    .banner-visual-card strong {
+        font-size: 15px;
+    }
 }

@@ -7,8 +7,9 @@
     "cta": "Afspraak maken"
   },
   "banner": {
-    "headline": "Moderne tandheelkunde met een persoonlijke aanpak",
-    "lead": "Elke patiënt verdient een gezonde, pijnvrije en mooie glimlach. Mijn doel is om dit te bereiken op een rustige, duidelijke en mensgerichte manier.",
+    "headline": "Tandheelkundige Zorg in Uw Taal",
+    "lead": "Nederlandstalig team met ook Engels, Duits en Spaans. Pijnloze implantaten, cosmetische tandheelkunde en 24-uurs spoedzorg in Orihuela Costa.",
+    "languageBadge": "Wij spreken NL · EN · DE · ES",
     "cta": "Afspraak maken",
     "emergency": "Tandheelkundige 24H Noodsituaties",
     "phone": "+34 641 328 992",
@@ -93,14 +94,14 @@
     }
   },
   "common": {
-  "language": "Taal",
-  "bookAppointment": "Afspraak Maken",
-  "patternAlt": "Decoratief patroon"
+    "language": "Taal",
+    "bookAppointment": "Afspraak Maken",
+    "patternAlt": "Decoratief patroon"
   },
   "appointment": {
     "subTitle": "AFSPRAAK MAKEN",
     "title": "Plan uw bezoek bij Clínica Dental Viapark",
-    "description": "We zijn geopend van maandag tot vrijdag: 09:30 - 15:00. Vul het onderstaande formulier in en we bevestigen uw afspraak binnenkort.",
+    "description": "Geopend van maandag tot vrijdag van 09:30 tot 15:00. Neem contact op via telefoon, WhatsApp of e-mail en we plannen uw bezoek snel in.",
     "mapTitle": "Locatie van de Kliniek",
     "address": "C. Lagunas de Ruidera, 127, Loc. 6 Pb<br>Centro Comercial Viapark V<br>03189 Orihuela Costa (Alicante)",
     "form": {
@@ -190,6 +191,128 @@
         "label": "Openingstijden",
         "value": "Maandag — Vrijdag: 09:30 — 15:00\nGesloten in het weekend"
       }
+    }
+  },
+  "serviceDetail": {
+    "backToServices": "Terug naar alle diensten",
+    "overviewLabel": "OVERZICHT",
+    "benefitsLabel": "Belangrijkste Voordelen",
+    "processLabel": "Wat te Verwachten",
+    "regulationsLabel": "Normen & Regelgeving",
+    "ctaTitle": "Boek een Consult",
+    "ctaText": "Klaar voor de volgende stap? Bel ons direct om uw afspraak te plannen.",
+    "otherServicesLabel": "Andere Diensten",
+    "general": {
+      "heading": "Volledige Preventieve & Herstellende Tandheelkundige Zorg",
+      "overview": "Algemene tandheelkunde vormt de basis van de mondgezondheidszorg. Bij Clínica Dental Viapark bieden wij grondige onderzoeken, professionele reinigingen (tandsteen- en plakverwijdering), composietvullingen, wortelkanaalbehandelingen en parodontale zorg. Regelmatige bezoeken om de 6 tot 12 maanden — zoals aanbevolen door de Consejo General de Dentistas de España — stellen ons in staat om problemen vroegtijdig op te sporen, van gaatjes en tandvleesaandoeningen tot orale laesies. Onze aanpak richt zich eerst op preventie, met digitale röntgenfoto's voor nauwkeurige diagnostiek en minimale stralingsblootstelling.",
+      "benefits": [
+        "Uitgebreid mondonderzoek met digitale röntgenfoto's",
+        "Professionele tandreiniging (profylaxe) om tandsteen en plak te verwijderen",
+        "Tandkleurige composietvullingen die de natuurlijke tandstructuur behouden",
+        "Vroege detectie van gaatjes, tandvleesaandoeningen en orale pathologieën",
+        "Persoonlijk mondhygiëneplan op maat van uw behoeften",
+        "Parodontale evaluatie en behandeling van tandvleesaandoeningen"
+      ],
+      "process": "Uw eerste bezoek begint met een volledig mondonderzoek, inclusief digitale röntgenfoto's indien nodig. Dr. Nasre beoordeelt uw tanden, tandvlees en algehele mondgezondheid en bespreekt vervolgens de bevindingen en een behandelplan met u. Professionele reiniging wordt doorgaans in dezelfde sessie uitgevoerd. Vervolgafspraken worden gepland op basis van uw individuele behoeften, over het algemeen elke 6 tot 12 maanden.",
+      "regulations": "Alle tandheelkundige professionals in onze kliniek zijn ingeschreven bij het Colegio Oficial de Odontólogos y Estomatólogos, zoals vereist door de Spaanse Ley 10/1986. Onze sterilisatie- en hygiëneprotocollen voldoen aan de nationale gezondheidsregelgeving. Basale tandheelkundige zorg, waaronder extracties en spoedeisende behandeling, is opgenomen in het Spaanse basispakket voor gezondheidszorg, gedefinieerd door Real Decreto 1030/2006, hoewel wij een veel breder scala aan diensten bieden."
+    },
+    "pediatric": {
+      "heading": "Vriendelijke, Deskundige Tandzorg voor Kinderen & Tieners",
+      "overview": "De mondgezondheid van kinderen bepaalt hun welzijn voor het leven. Onze kindertandheelkunde is ontworpen rondom jonge patiënten — van hun allereerste tandartsbezoek (aanbevolen vanaf de leeftijd van één jaar, volgens de Sociedad Española de Odontopediatría) tot de adolescentie. We creëren een vriendelijke, stressvrije omgeving met uitleg op het niveau van het kind. Behandelingen omvatten fluoridevernis, fissuurlakmiddelen om blijvende kiezen te beschermen, vroege gaatjesbehandeling en advies over gewoonten. We leren ook poets- en flostechnieken aan om goede mondhygiënegewoonten vanaf jonge leeftijd te vestigen.",
+      "benefits": [
+        "Begeleiding bij het eerste tandartsbezoek — aanbevolen vanaf één jaar",
+        "Fluoridevernisapplicaties om het zich ontwikkelende glazuur te versterken",
+        "Fissuurlakmiddelen op blijvende kiezen om gaatjes te voorkomen",
+        "Leeftijdsgeschikte gaatjesbehandeling met zachte technieken",
+        "Poets- en floseducatie voor kinderen en ouders",
+        "Monitoren van de gebitssontwikkeling en vroege orthodontische screening"
+      ],
+      "process": "Elk bezoek begint met het kind op zijn gemak stellen via een vriendelijke kennismaking met ons team en de apparatuur. De tandarts voert een zorgvuldig onderzoek uit, vaak met een 'uitleggen-laten zien-doen' aanpak om elke stap te beschrijven. Preventieve behandelingen zoals fluoride of fissuurlakmiddelen worden pijnloos aangebracht. Ouders ontvangen advies over thuiszorg, voeding en wanneer de volgende controle te plannen.",
+      "regulations": "In de Comunidad Valenciana hebben kinderen van 6 tot 15 jaar recht op basale tandheelkundige zorg via het PADI-programma (Programa de Atención Dental Infantil), vastgesteld bij Decreto 97/2010 van de Consell. Dit dekt onderzoeken, fluoridebehandelingen, fissuurlakmiddelen op blijvende tanden, vullingen en extracties indien nodig. Onze kliniek is uitgerust om deze zorg en veel meer te bieden, inclusief behandelingen buiten het bereik van het publieke programma."
+    },
+    "implant": {
+      "heading": "Permanente, Natuurlijk Ogende Tandvervanging",
+      "overview": "Tandheelkundige implantaten zijn de gouden standaard voor het vervangen van ontbrekende tanden. Een titanium pen wordt chirurgisch in het kaakbot geplaatst, waar deze gedurende enkele weken integreert (osseo-integratie) om een stabiele basis te vormen voor een kroon, brug of prothese. Dr. Nasre heeft uitgebreide ervaring in de implantologie en gebruikt gevestigde implantsystemen met CE-markering die voldoen aan de Europese Verordening Medische Hulpmiddelen (EU MDR 2017/745). Implantaten zien er uit, voelen aan en functioneren als natuurlijke tanden, met gedocumenteerde succespercentages van 95–98% over tien jaar bij goed onderhoud.",
+      "benefits": [
+        "Permanente oplossing — implantaten kunnen een leven lang meegaan met goede zorg",
+        "Natuurlijk uiterlijk en functie identiek aan echte tanden",
+        "Behoudt het kaakbot en voorkomt botverlies na tandextractie",
+        "Geen schade aan aangrenzende gezonde tanden (in tegenstelling tot traditionele bruggen)",
+        "Hoog langetermijn succespercentage: 95–98% gedocumenteerd over 10 jaar",
+        "Opties voor één tand, meerdere tanden of volledige kaakrehabilitate"
+      ],
+      "process": "De behandeling begint met een gedetailleerde beoordeling inclusief 3D-beeldvorming om het botvolume te evalueren en de implantaatplaatsing nauwkeurig te plannen. Het titanium implantaat wordt onder lokale verdoving geplaatst tijdens een korte chirurgische ingreep. Een genezingsperiode van 8 tot 16 weken stelt het implantaat in staat om met het bot te integreren. Eenmaal stabile wordt een op maat gemaakte porseleinen of zirkonium kroon bevestigd. Gedurende het hele proces ontvangt u duidelijke informatie over elke fase en nazorginstructies.",
+      "regulations": "Alle implantaatcomponenten die in onze kliniek worden gebruikt, dragen de CE-markering en voldoen aan EU-Verordening Medische Hulpmiddelen 2017/745. Implantaatchirurgie in Spanje moet worden uitgevoerd door een geregistreerde tandarts of kaakchirurg bij het Colegio Oficial de Odontólogos. Onze chirurgische protocollen volgen de infectiecontrolenormen van de Spaanse gezondheidswetgeving, waaronder adequate sterilisatie, eenmalig gebruiksmateriaal en traceerbaarheid van alle geïmplanteerde hulpmiddelen."
+    },
+    "aesthetic": {
+      "heading": "Cosmetische Behandelingen voor een Zelfverzekerde Glimlach",
+      "overview": "Esthetische tandheelkunde richt zich op het verbeteren van het uiterlijk van uw glimlach met behoud van de tandgezondheid. Wij bieden professioneel bleken in de praktijk, porseleinen en composiet facings, esthetisch bonding, tandvleescontouring en glimlach-makeovers. Elke behandeling wordt gepland met uw gelaatstrekken en verwachtingen in gedachten. Onze bleekprotocollen gebruiken producten die voldoen aan EU-Richtlijn 2011/84/EU, die de concentratie waterstofperoxide beperkt tot maximaal 6% — een limiet die alleen geregistreerde tandheelkundige professionals mogen toepassen, voor zowel veiligheid als effectiviteit.",
+      "benefits": [
+        "Professioneel tanden bleken met klinisch geteste producten",
+        "Porseleinen facings voor een duurzame, natuurlijk ogende transformatie",
+        "Composiet bonding om chips, openingen of verkleuring te herstellen",
+        "Tandvleescontouring voor een evenwichtige, symmetrische glimlach",
+        "Persoonlijk glimlachontwerp rekening houdend met gezichtsesthetiek",
+        "Direct zichtbare resultaten met langdurige uitkomsten"
+      ],
+      "process": "De behandeling begint met een glimlachanalyse, waarbij we uw tandkleur, vorm, uitlijning en tandvleeslijn beoordelen. Voor bleken brengen we een professionele gel aan onder gecontroleerde omstandigheden voor optimale resultaten in één sessie. Facings vereisen twee bezoeken: het eerste voor voorbereiding en afdrukken, het tweede voor het hechten van de op maat gemaakte porseleinen schalen. Composiet bonding kan vaak in één afspraak worden voltooid.",
+      "regulations": "Tanden bleken in de EU wordt gereguleerd door Richtlijn 2011/84/EU van de Raad. Producten met 0,1% tot 6% waterstofperoxide (of equivalent) mogen alleen worden verstrekt en toegepast door een gekwalificeerde tandheelkundige professional. Vrij verkrijgbare producten boven 0,1% zijn verboden voor directe verkoop aan consumenten. Alle esthetische materialen die wij gebruiken dragen de CE-markering en voldoen aan EU-veiligheidsnormen voor biocompatibiliteit."
+    },
+    "reconstructive": {
+      "heading": "Functioneel & Esthetisch Herstel van Complexe Tandschade",
+      "overview": "Reconstructieve tandheelkunde herstelt tanden die ernstig versleten, beschadigd of verloren zijn door trauma, cariës, bruxisme of veroudering. Behandelingen variëren van individuele kronen en bruggen tot volledige mondrehabilitaties die implantaten, protheses en esthetische technieken combineren. Dr. Nasre ontwikkelt een uitgebreid behandelplan op maat om zowel functie (kauwen, spraak) als uiterlijk te herstellen. Wij gebruiken hoogwaardige keramische, zirkonium en metaal-keramische restauraties — allemaal CE-gemarkeerd en vervaardigd door gecertificeerde tandtechnische laboratoria.",
+      "benefits": [
+        "Volledig herstel van kauwfunctie en beetbalans",
+        "Esthetische rehabilitatie zelfs in complexe gevallen met meerdere tanden",
+        "Hoogwaardige keramische en zirkonium kronen met natuurlijk uiterlijk",
+        "Gecombineerde implantaat-prothetische oplossingen voor uitgebreid tandverlies",
+        "Behandeling van slijtage door bruxisme met beschermende aanpakken",
+        "Verbeterde spraak en comfort door een correct hersteld gebit"
+      ],
+      "process": "We beginnen met een uitgebreide evaluatie inclusief röntgenfoto's en, indien nodig, studiemodellen en foto's. Een gefaseerd behandelplan wordt gepresenteerd, met alle noodzakelijke voorbereidende werkzaamheden (zoals implantaatplaatsing of tandvleesbehandeling), gevolgd door de restauratieve fase. Tijdelijke restauraties beschermen uw tanden tijdens de fabricage van de definitieve protheses. Elke kroon, brug of facing wordt ingepast, aangepast en definitief gecementeerd zodra u de pasvorm en esthetiek goedkeurt.",
+      "regulations": "Alle prothetische restauraties worden vervaardigd door tandtechnische laboratoria die voldoen aan EU-Verordening Medische Hulpmiddelen 2017/745 en moeten een conformiteitsverklaring bevatten. Gebruikte materialen — waaronder keramiek, zirkonium en legeringen — voldoen aan biocompatibiliteitsnormen volgens EN ISO 10993. De Spaanse Ley 10/1986 garandeert dat alle reconstructieve ingrepen worden uitgevoerd door gekwalificeerde, geregistreerde tandheelkundige professionals."
+    },
+    "orthodontics": {
+      "heading": "Rechte Tanden met een Beugel of Doorzichtige Aligners",
+      "overview": "Orthodontische behandeling corrigeert scheefstaande tanden en onjuiste beten, wat zowel de esthetiek als de mondfunctie verbetert. Wij bieden traditionele metalen beugels, keramische (tandkleurige) beugels en Invisalign doorzichtige aligners als bijna onzichtbare optie. Behandeling is beschikbaar voor kinderen, tieners en volwassenen — het is nooit te laat voor een rechter glimlach. Dr. Nasre ontwerpt elk behandelplan met digitale beeldvorming en, voor Invisalign-gevallen, 3D-behandelsimulatie zodat u uw resultaten kunt bekijken voordat u begint.",
+      "benefits": [
+        "Corrigeert op elkaar staande, ver uit elkaar staande of scheefe tanden",
+        "Verbetert de beetfunctie en vermindert kaakspanning",
+        "Invisalign doorzichtige aligners voor discrete behandeling",
+        "Digitale behandelplanning met 3D-glimlachvoorvertoning",
+        "Opties voor alle leeftijden — kinderen, tieners en volwassenen",
+        "Betere mondhygiëne op lange termijn met correct uitgelijnde tanden"
+      ],
+      "process": "Bij het eerste consult beoordelen we uw tanduitlijning, beet en kaakrelatie met digitale scans en foto's. Een op maat gemaakt behandelplan beschrijft de verwachte tijdlijn (doorgaans 12 tot 24 maanden voor uitgebreide gevallen). Voor beugels worden brackets op de tanden gehecht en op regelmatige tijdstippen bijgesteld. Voor Invisalign ontvangt u een reeks op maat gemaakte doorzichtige aligners, die elke 1 tot 2 weken worden verwisseld. De voortgang wordt gecontroleerd bij controles om de 4 tot 8 weken.",
+      "regulations": "Orthodontische behandeling in Spanje moet worden uitgevoerd door een tandarts met de juiste opleiding. Invisalign aligners en andere orthodontische apparaten zijn geclassificeerd als op maat gemaakte medische hulpmiddelen volgens EU MDR 2017/745 en vereisen een fabricageverklaring. Alle gebruikte materialen zijn CE-gemarkeerd en biocompatibel. Orthodontische behandeling wordt niet gedekt door het Spaanse publieke gezondheidssysteem (SNS) voor volwassenen; voor kinderen varieert de dekking per autonome gemeenschap."
+    },
+    "surgical": {
+      "heading": "Veilige, Professionele Mondchirurgische Ingrepen",
+      "overview": "Onze mondchirurgische diensten omvatten de meest voorkomende chirurgische tandheelkundige ingrepen: verwijdering van verstandskiezen (inclusief geïmpacteerde derde kiezen), chirurgische tandextracties, apexresectie (wortelpuntchirurgie), verwijdering van tandcysten en kleine kaakingrepen. Alle chirurgische ingrepen worden uitgevoerd onder lokale verdoving, met bewuste sedatie beschikbaar voor angstige patiënten. Dr. Nasre past minimaal invasieve technieken toe om postoperatief ongemak te verminderen en genezing te versnellen.",
+      "benefits": [
+        "Deskundige verwijdering van geïmpacteerde of gecompliceerde verstandskiezen",
+        "Apexresectie om tanden met aanhoudende wortelinfecties te redden",
+        "Verwijdering van tandcysten en goedaardige orale laesies",
+        "Minimaal invasieve technieken voor sneller herstel",
+        "Lokale verdoving met sedatie-opties voor patiëntcomfort",
+        "Duidelijke postoperatieve zorginstructies en nazorg"
+      ],
+      "process": "Vóór elke chirurgische ingreep voeren we een grondige evaluatie uit met panoramische of 3D-beeldvorming om de aanpak te plannen. De procedure wordt in detail uitgelegd zodat u weet wat u kunt verwachten. Op de dag van de ingreep zorgt lokale verdoving ervoor dat u volledig comfortabel bent. De meeste ingrepen duren 30 tot 60 minuten. U ontvangt schriftelijke nazorginstructies over pijnbestrijding, voeding en hygiëne. Een controleafspraak wordt gepland om de genezing te monitoren.",
+      "regulations": "Mondchirurgische ingrepen in Spanje moeten worden uitgevoerd door geregistreerde tandartsen of stomatologen bij het Colegio Oficial. Onze kliniek volgt strikte sterilisatieprotocollen in overeenstemming met de Spaanse gezondheidsregelgeving en Europese normen voor infectiecontrole. Voor ingrepen die sedatie vereisen, voldoen wij aan de richtlijnen van de Sociedad Española de Cirugía Bucal (SECIB). Spoedeisende chirurgische gevallen worden gedeeltelijk gedekt door het Spaanse basispakket gezondheidszorg (Real Decreto 1030/2006)."
+    },
+    "emergency": {
+      "heading": "Onmiddellijke Hulp Wanneer U Het Het Meest Nodig Heeft",
+      "overview": "Tandheelkundige noodsituaties — ernstige kiespijn, mondtrauma, een uitgeslagen tand, een gebroken restauratie, of zwelling en infectie — vereisen snelle professionele hulp. Bij Clínica Dental Viapark geven we prioriteit aan spoedafspraken op dezelfde dag om het probleem te diagnosticeren, pijn te verlichten, infectie te beheersen en definitieve behandeling te starten. Als een tand is uitgeslagen, is tijd cruciaal: herimplanteren binnen 30 tot 60 minuten vergroot de kans op het redden van de tand aanzienlijk. Bel ons onmiddellijk op +34 641 328 992.",
+      "benefits": [
+        "Spoedafspraken op dezelfde dag — we streven ernaar u binnen enkele uren te zien",
+        "Snelle pijnverlichting en infectiebeheersing",
+        "Behandeling van uitgeslagen, gebarsten of gebroken tanden",
+        "Spoedhersel van kronen, bruggen en protheses",
+        "Telefonische begeleiding buiten kantooruren voor urgente situaties",
+        "Naadloze overgang naar vervolgherstellende behandeling"
+      ],
+      "process": "Bel ons onmiddellijk bij een tandheelkundige noodsituatie. We plannen zo snel mogelijk een spoedafspraak, vaak dezelfde dag nog. Bij aankomst voeren we een gericht onderzoek uit en maken indien nodig beeldvorming om het probleem te diagnosticeren. Onmiddellijke behandeling richt zich op pijnverlichting en stabilisatie — dit kan drainage van een abces omvatten, spalken van een losse tand, tijdelijke vulling of spoedeisende extractie. Vervolgens wordt een nazorgplan opgesteld voor definitieve behandeling.",
+      "regulations": "Spoedeisende tandheelkundige zorg (inclusief extracties en behandeling van acute infecties) is opgenomen in het Spaanse basispakket gezondheidszorg onder Real Decreto 1030/2006. Alle burgers en ingezetenen met publieke ziektekostenverzekering hebben recht op spoedeisende tandheelkundige behandeling via het Sistema Nacional de Salud. In onze privékliniek bieden we directe toegang zonder wachtlijsten, voor zowel verzekerde als particuliere patiënten."
     }
   }
 }

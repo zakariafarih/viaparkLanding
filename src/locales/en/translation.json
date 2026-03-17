@@ -7,8 +7,9 @@
     "cta": "Book appointment"
   },
   "banner": {
-    "headline": "Modern dentistry with a personal approach",
-    "lead": "Every patient deserves a healthy, pain-free, and beautiful smile. My goal is to achieve that in a calm, clear, and human-centered way.",
+    "headline": "Expert Dental Care in Your Language",
+    "lead": "English, Dutch, German & Spanish speaking team. Painless implants, cosmetic dentistry & 24H emergency care in Orihuela Costa.",
+    "languageBadge": "We speak EN · NL · DE · ES",
     "cta": "Book an appointment",
     "emergency": "Dental 24H Emergency",
     "phone": "+34 641 328 992",
@@ -100,7 +101,7 @@
   "appointment": {
     "subTitle": "BOOK APPOINTMENT",
     "title": "Schedule Your Visit at Clínica Dental Viapark",
-    "description": "We're open Monday--Friday: 09:30 -- 15:00. Fill out the form below and we'll confirm your appointment shortly.",
+    "description": "Open Monday--Friday from 09:30 to 15:00. Reach us by phone, WhatsApp or email and we'll arrange your visit quickly.",
     "mapTitle": "Clinic Location",
     "address": "C. Lagunas de Ruidera, 127, Loc. 6 Pb<br>Centro Comercial Viapark V<br>03189 Orihuela Costa (Alicante)",
     "form": {
@@ -190,6 +191,128 @@
         "label": "Opening Hours",
         "value": "Monday — Friday: 09:30 — 15:00\nClosed on weekends"
       }
+    }
+  },
+  "serviceDetail": {
+    "backToServices": "Back to all services",
+    "overviewLabel": "OVERVIEW",
+    "benefitsLabel": "Key Benefits",
+    "processLabel": "What to Expect",
+    "regulationsLabel": "Standards & Regulations",
+    "ctaTitle": "Book a Consultation",
+    "ctaText": "Ready to take the next step? Call us directly to schedule your appointment.",
+    "otherServicesLabel": "Other Services",
+    "general": {
+      "heading": "Complete Preventive & Restorative Dental Care",
+      "overview": "General dentistry forms the foundation of oral healthcare. At Clínica Dental Viapark we provide thorough examinations, professional cleanings (tartar and plaque removal), composite fillings, root canal treatments, and periodontal care. Regular visits every 6 to 12 months — as recommended by the Consejo General de Dentistas de España — allow us to detect issues early, from cavities and gum disease to oral lesions. Our approach focuses on prevention first, using digital radiography for precise diagnostics while minimising radiation exposure.",
+      "benefits": [
+        "Comprehensive oral examination with digital radiography",
+        "Professional dental cleaning (prophylaxis) to remove tartar and plaque",
+        "Tooth-coloured composite fillings that preserve natural tooth structure",
+        "Early detection of cavities, gum disease, and oral pathologies",
+        "Personalised oral hygiene plan tailored to your needs",
+        "Periodontal assessment and treatment of gum conditions"
+      ],
+      "process": "Your first visit begins with a full oral examination, including digital X-rays when needed. Dr. Nasre will assess your teeth, gums, and overall oral health, then discuss findings and a treatment plan with you. Professional cleaning is typically performed in the same session. Follow-up appointments are scheduled based on your individual needs, generally every 6 to 12 months.",
+      "regulations": "All dental professionals at our clinic are registered with the Colegio Oficial de Odontólogos y Estomatólogos, as required by Spanish Ley 10/1986. Our sterilisation and hygiene protocols comply with national health regulations. Basic dental care, including extractions and emergency treatment, is included in the Spanish public health portfolio defined by Royal Decree 1030/2006, though we provide a much broader range of services."
+    },
+    "pediatric": {
+      "heading": "Gentle, Expert Dental Care for Children & Teenagers",
+      "overview": "Children's oral health shapes their wellbeing for life. Our pediatric dentistry service is designed around young patients — from their very first dental visit (recommended by age one, per the Sociedad Española de Odontopediatría) through adolescence. We create a friendly, low-stress environment with explanations at the child's level. Treatments include fluoride varnishes, fissure sealants to protect permanent molars, early cavity treatment, and habit counselling. We also teach brushing and flossing techniques to establish strong oral hygiene habits from an early age.",
+      "benefits": [
+        "First dental visit guidance — recommended by age one",
+        "Fluoride varnish applications to strengthen developing enamel",
+        "Fissure sealants on permanent molars to prevent decay",
+        "Age-appropriate cavity treatment with gentle techniques",
+        "Brushing and flossing education for children and parents",
+        "Monitoring of dental development and early orthodontic screening"
+      ],
+      "process": "We begin each visit by making the child comfortable with a friendly introduction to our team and equipment. The dentist performs a careful examination, often using a 'tell-show-do' approach to explain each step. Preventive treatments such as fluoride or sealants are applied painlessly. Parents receive guidance on at-home care, diet, and when to schedule the next check-up.",
+      "regulations": "In the Comunidad Valenciana, children aged 6 to 15 are entitled to basic dental care through the PADI programme (Programa de Atención Dental Infantil), established by Decreto 97/2010 of the Consell. This covers examinations, fluoride treatments, fissure sealants on permanent teeth, fillings, and extractions when needed. Our clinic is equipped to provide this care and much more, including treatments beyond the public programme's scope."
+    },
+    "implant": {
+      "heading": "Permanent, Natural-Looking Tooth Replacement",
+      "overview": "Dental implants are the gold standard for replacing missing teeth. A titanium post is surgically placed in the jawbone, where it integrates over several weeks (osseointegration) to form a stable foundation for a crown, bridge, or denture. Dr. Nasre has extensive experience in implantology, using established implant systems that carry the CE marking and comply with the European Medical Device Regulation (EU MDR 2017/745). Implants look, feel, and function like natural teeth, with documented success rates of 95–98% over ten years when properly maintained.",
+      "benefits": [
+        "Permanent solution — implants can last a lifetime with proper care",
+        "Natural appearance and function identical to real teeth",
+        "Preserves jawbone and prevents bone loss after tooth extraction",
+        "No damage to adjacent healthy teeth (unlike traditional bridges)",
+        "High long-term success rate: 95–98% documented over 10 years",
+        "Options for single teeth, multiple teeth, or full-arch rehabilitation"
+      ],
+      "process": "Treatment starts with a detailed assessment including 3D imaging to evaluate bone volume and plan implant placement precisely. The titanium implant is placed under local anaesthesia during a short surgical procedure. A healing period of 8 to 16 weeks allows the implant to integrate with the bone. Once stable, a custom-made porcelain or zirconia crown is attached. Throughout the process, you receive clear information about each stage and aftercare instructions.",
+      "regulations": "All implant components used at our clinic carry the CE marking and comply with EU Medical Device Regulation 2017/745. Implant surgery in Spain must be performed by a licenced dentist or oral surgeon registered with the Colegio Oficial de Odontólogos. Our surgical protocols follow the infection-control standards set by Spanish health legislation, including proper sterilisation, single-use consumables, and traceability of all implanted devices."
+    },
+    "aesthetic": {
+      "heading": "Cosmetic Treatments for a Confident Smile",
+      "overview": "Aesthetic dentistry focuses on improving the appearance of your smile while preserving dental health. We offer professional in-office teeth whitening, porcelain and composite veneers, aesthetic bonding, gum contouring, and smile makeovers. Every treatment is planned with your facial features and expectations in mind. Our whitening protocols use products compliant with EU Council Directive 2011/84/EU, which restricts hydrogen peroxide concentration to a maximum of 6% — a limit that only licenced dental professionals are authorised to apply, ensuring both safety and effectiveness.",
+      "benefits": [
+        "Professional teeth whitening with clinically tested products",
+        "Porcelain veneers for a durable, natural-looking transformation",
+        "Composite bonding to repair chips, gaps, or discolouration",
+        "Gum contouring for a balanced, symmetrical smile",
+        "Personalised smile design taking facial aesthetics into account",
+        "Immediate visible results with long-lasting outcomes"
+      ],
+      "process": "Treatment begins with a smile analysis, where we assess your teeth colour, shape, alignment, and gum line. For whitening, we apply a professional-grade gel under controlled conditions for optimal results in a single session. Veneers require two visits: the first for preparation and impressions, the second for bonding the custom-made porcelain shells. Composite bonding can often be completed in one appointment.",
+      "regulations": "Teeth whitening in the EU is regulated by Council Directive 2011/84/EU. Products containing between 0.1% and 6% hydrogen peroxide (or equivalent) may only be dispensed and applied by a qualified dental professional. Over-the-counter products above 0.1% are prohibited for direct consumer sale. All aesthetic materials we use carry the CE marking and meet EU safety standards for biocompatibility."
+    },
+    "reconstructive": {
+      "heading": "Functional & Aesthetic Rehabilitation of Complex Dental Damage",
+      "overview": "Reconstructive dentistry restores teeth that are severely worn, damaged, or missing due to trauma, decay, bruxism, or age. Treatments range from individual crowns and bridges to full-mouth rehabilitations combining implants, prosthetics, and aesthetic techniques. Dr. Nasre develops a comprehensive treatment plan tailored to restore both function (chewing, speech) and appearance. We use high-quality ceramic, zirconia, and metal-ceramic restorations — all CE-marked and fabricated by certified dental laboratories.",
+      "benefits": [
+        "Full restoration of chewing function and bite balance",
+        "Aesthetic rehabilitation even in complex multi-tooth cases",
+        "High-quality ceramic and zirconia crowns for natural appearance",
+        "Combined implant-prosthetic solutions for extensive tooth loss",
+        "Treatment of bruxism-related wear with protective approaches",
+        "Improved speech and comfort from a properly restored dentition"
+      ],
+      "process": "We begin with a comprehensive evaluation including radiographs and, when needed, study models and photographs. A phased treatment plan is presented, covering any necessary preparatory work (such as implant placement or gum treatment), followed by the restorative phase. Temporary restorations protect your teeth during fabrication of the final prosthetics. Each crown, bridge, or veneer is tried in, adjusted, and permanently cemented once you approve the fit and aesthetics.",
+      "regulations": "All prosthetic restorations are manufactured by dental laboratories complying with EU Medical Device Regulation 2017/745 and must carry a declaration of conformity. Materials used — including ceramics, zirconia, and alloys — meet biocompatibility standards under EN ISO 10993. Spain's Ley 10/1986 ensures that all reconstructive procedures are carried out by qualified, registered dental professionals."
+    },
+    "orthodontics": {
+      "heading": "Straighter Teeth with Braces or Clear Aligners",
+      "overview": "Orthodontic treatment corrects misaligned teeth and improper bites, improving both aesthetics and oral function. We offer traditional metal braces, ceramic (tooth-coloured) braces, and Invisalign clear aligners for a nearly invisible option. Treatment is available for children, teenagers, and adults — it's never too late to achieve a straighter smile. Dr. Nasre designs each treatment plan using digital imaging and, for Invisalign cases, 3D treatment simulation so you can preview your results before starting.",
+      "benefits": [
+        "Corrects crowded, spaced, or misaligned teeth",
+        "Improves bite function and reduces jaw strain",
+        "Invisalign clear aligners for discreet treatment",
+        "Digital treatment planning with 3D smile preview",
+        "Options for all ages — children, teenagers, and adults",
+        "Better oral hygiene long-term with properly aligned teeth"
+      ],
+      "process": "At the initial consultation, we assess your teeth alignment, bite, and jaw relationship with digital scans and photographs. A customised treatment plan outlines the expected timeline (typically 12 to 24 months for comprehensive cases). For braces, brackets are bonded to the teeth and adjusted at regular intervals. For Invisalign, you receive a series of custom-moulded clear aligners, changed every 1 to 2 weeks. Progress is monitored at check-ups every 4 to 8 weeks.",
+      "regulations": "Orthodontic treatment in Spain must be performed by a dentist with appropriate training. Invisalign aligners and other orthodontic appliances are classified as custom-made medical devices under EU MDR 2017/745 and require a statement of manufacture. All materials used are CE-marked and biocompatible. Orthodontic treatment is not covered by Spain's public health system (SNS) for adults; for children, coverage varies by autonomous community."
+    },
+    "surgical": {
+      "heading": "Safe, Professional Oral Surgical Procedures",
+      "overview": "Our oral surgery services cover the most common surgical dental procedures: wisdom tooth extraction (including impacted third molars), surgical tooth removal, apicoectomy (root-tip surgery), removal of dental cysts, and minor jaw procedures. All surgeries are performed under local anaesthesia, with conscious sedation available for anxious patients. Dr. Nasre applies minimally invasive techniques to reduce post-operative discomfort and speed healing.",
+      "benefits": [
+        "Expert extraction of impacted or complicated wisdom teeth",
+        "Apicoectomy to save teeth with persistent root infections",
+        "Removal of dental cysts and benign oral lesions",
+        "Minimally invasive techniques for faster healing",
+        "Local anaesthesia with sedation options for patient comfort",
+        "Clear post-operative care instructions and follow-up"
+      ],
+      "process": "Before any surgical procedure, we perform a thorough evaluation with panoramic or 3D imaging to plan the approach. The procedure is explained in detail so you know what to expect. On the day of surgery, local anaesthesia ensures you are completely comfortable. Most procedures take 30 to 60 minutes. You receive written aftercare instructions covering pain management, diet, and hygiene. A follow-up appointment is scheduled to monitor healing.",
+      "regulations": "Oral surgical procedures in Spain must be performed by licenced dentists or stomatologists registered with the Colegio Oficial. Our clinic follows strict sterilisation protocols in accordance with Spanish health regulations and European standards for infection control. For procedures requiring sedation, we comply with the guidelines of the Sociedad Española de Cirugía Bucal (SECIB). Emergency surgical cases are partially covered under Spain's public health basic portfolio (Royal Decree 1030/2006)."
+    },
+    "emergency": {
+      "heading": "Immediate Help When You Need It Most",
+      "overview": "Dental emergencies — severe toothache, trauma to the mouth, a knocked-out tooth, a broken restoration, or swelling and infection — require prompt professional attention. At Clínica Dental Viapark, we prioritise same-day emergency appointments to diagnose the problem, relieve pain, control infection, and begin definitive treatment. If a tooth has been knocked out, time is critical: reimplantation within 30 to 60 minutes significantly improves the chance of saving the tooth. Call us immediately at +34 641 328 992.",
+      "benefits": [
+        "Same-day emergency appointments — we aim to see you within hours",
+        "Rapid pain relief and infection control",
+        "Treatment for knocked-out, cracked, or broken teeth",
+        "Emergency repair of crowns, bridges, and dentures",
+        "After-hours telephone guidance for urgent situations",
+        "Seamless transition to follow-up restorative treatment"
+      ],
+      "process": "Call us immediately when a dental emergency occurs. We schedule an urgent appointment as soon as possible, often the same day. Upon arrival, we perform a focused examination and any necessary imaging to diagnose the issue. Immediate treatment focuses on pain relief and stabilisation — this might include drainage of an abscess, splinting of a loose tooth, temporary filling, or emergency extraction. A follow-up plan is then arranged for definitive care.",
+      "regulations": "Emergency dental care (including extractions and treatment of acute infection) is included in Spain's basic public health services portfolio under Royal Decree 1030/2006. All citizens and residents with public health coverage are entitled to emergency dental treatment through the Sistema Nacional de Salud. At our private clinic, we provide immediate access without waiting lists, treating both insured and private patients."
     }
   }
 }
