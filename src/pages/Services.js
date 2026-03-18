@@ -5,7 +5,7 @@ import SectionTitle from '../components/SectionTitle/SectionTitle';
 import Service from '../components/Service/Service';
 import ServicesData from '../sections/Services/ServiceData';
 import { useTranslation } from 'react-i18next';
-import PageSEO from '../components/PageSEO';
+import PageSEO, { getServicesListSchema } from '../components/PageSEO';
 import './Services.scss';
 
 const Services = () => {
@@ -17,6 +17,7 @@ const Services = () => {
         path="/services"
         titleKey="seo.services.title"
         descriptionKey="seo.services.description"
+        schema={getServicesListSchema(t)}
       />
       <Navbar />
 

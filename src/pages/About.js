@@ -4,7 +4,7 @@ import AboutBanner from '../sections/AboutBanner/AboutBanner';
 import Priority from '../sections/Priority/Priority';
 import PatientGallery from '../sections/PatientGallery/PatientGallery';
 import Footer from '../sections/Footer/Footer';
-import PageSEO from '../components/PageSEO';
+import PageSEO, { getDentistPersonSchema } from '../components/PageSEO';
 
 const About = () => {
     return (
@@ -13,6 +13,7 @@ const About = () => {
                 path="/about"
                 titleKey="seo.about.title"
                 descriptionKey="seo.about.description"
+                schema={getDentistPersonSchema()}
             />
             <Navbar />
             <main>

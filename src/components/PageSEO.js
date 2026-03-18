@@ -138,12 +138,63 @@ export const getServiceSchema = (serviceId, t, lang = 'en') => ({
   description: t(`services.items.${serviceId}.description`),
   procedureType: 'http://schema.org/NoninvasiveProcedure',
   url: `${SITE_URL}/${lang}/services/${serviceId}`,
+  bodyLocation: 'Mouth',
+  howPerformed: t(`serviceDetail.${serviceId}.overview`, { defaultValue: '' }),
   provider: {
     '@type': 'Dentist',
     '@id': `${SITE_URL}/#dentist`,
     name: 'Clínica Dental Viapark'
   }
 });
+
+// Person schema for about page (Dr. Nasre)
+export const getDentistPersonSchema = () => ({
+  '@context': 'https://schema.org',
+  '@type': 'Dentist',
+  '@id': `${SITE_URL}/#dentist`,
+  name: 'Clínica Dental Viapark',
+  url: SITE_URL,
+  image: DEFAULT_IMAGE,
+  telephone: '+34641328992',
+  email: 'info@viaparkdental.com',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: 'C. Lagunas de Ruidera, 127, Loc. 6 Pb, Centro Comercial Viapark V',
+    addressLocality: 'Orihuela Costa',
+    addressRegion: 'Alicante',
+    postalCode: '03189',
+    addressCountry: 'ES'
+  },
+  member: {
+    '@type': 'Person',
+    name: 'Dr. Nasre',
+    jobTitle: 'Lead Dentist',
+    worksFor: {
+      '@type': 'Dentist',
+      '@id': `${SITE_URL}/#dentist`
+    },
+    medicalSpecialty: ['Implantology', 'Reconstructive Dentistry', 'General Dentistry'],
+    knowsLanguage: ['Spanish', 'English', 'Dutch', 'German']
+  }
+});
+
+// ItemList schema for services listing page
+export const getServicesListSchema = (t, lang = 'en') => {
+  const serviceIds = ['general', 'pediatric', 'implant', 'aesthetic', 'reconstructive', 'orthodontics', 'surgical', 'emergency'];
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: t('seo.services.title'),
+    itemListOrder: 'https://schema.org/ItemListUnordered',
+    numberOfItems: serviceIds.length,
+    itemListElement: serviceIds.map((id, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      url: `${SITE_URL}/${lang}/services/${id}`,
+      name: t(`services.items.${id}.title`)
+    }))
+  };
+};
 
 // FAQ schema for contact page
 export const getFAQSchema = (faqs) => ({

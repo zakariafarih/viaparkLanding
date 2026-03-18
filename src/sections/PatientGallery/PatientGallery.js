@@ -3,9 +3,9 @@ import './PatientGallery.scss';
 import SectionTitle from '../../components/SectionTitle/SectionTitle';
 import { useTranslation } from 'react-i18next';
 
-import caseImage1 from '../../assets/about/patient-gallery/case1.png';
-import caseImage2 from '../../assets/about/patient-gallery/case2.png';
-import caseImage3 from '../../assets/about/patient-gallery/case3.png';
+import caseImage1 from '../../assets/about/patient-gallery/case1.webp';
+import caseImage2 from '../../assets/about/patient-gallery/case2.webp';
+import caseImage3 from '../../assets/about/patient-gallery/case3.webp';
 
 const PatientGallery = () => {
   const { t } = useTranslation();
