@@ -9,6 +9,7 @@ import { FaCheckCircle, FaPhoneAlt, FaArrowLeft } from 'react-icons/fa';
 import PageSEO, { getServiceSchema } from '../components/PageSEO';
 import { trackPhoneClick } from '../utils/analytics';
 import { useLangPath } from '../utils/useLang';
+import aestheticResult from '../assets/service/aesthetic-result.webp';
 import './ServiceDetail.scss';
 
 const VALID_SERVICES = ServicesData.map(s => s.translationKey);
@@ -82,6 +83,20 @@ const ServiceDetail = () => {
                       </li>
                     ))}
                   </ul>
+                </div>
+              )}
+
+              {serviceId === 'aesthetic' && (
+                <div className="detail-block aesthetic-showcase">
+                  <h3 className="block-heading">{t('serviceDetail.ourWorkLabel', 'Our Work')}</h3>
+                  <img
+                    src={aestheticResult}
+                    alt={t('serviceDetail.aestheticResultAlt', 'Aesthetic dentistry result by Clínica Dental Viapark')}
+                    className="showcase-image"
+                    width="900"
+                    height="900"
+                    loading="lazy"
+                  />
                 </div>
               )}
 
